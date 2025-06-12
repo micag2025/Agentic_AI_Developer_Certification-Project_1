@@ -1,7 +1,7 @@
 
 # Agentic AI Developer Certification: Course Project 1: Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer  
 
-![Image Logo](ChatGPT_Image_4_1v1_4to1_72dpi_final.jpg)
+![Image Logo](ChatGPT_Image_v2_resized.jpg)
 
 ### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Memory(?), Prompt Engineering, Question-Answering, Retrieval-Augmented Generation (RAG), ReAct, Vector Databases (LLMs?)
 ### Co-Authors: chibueze.k.muoneke@gmail.com TO BE ENCLOSED Joshua N
