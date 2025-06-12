@@ -106,11 +106,6 @@ Acknowledgments for contributors or similar.
 
 
 
-
-
-
-
-
 Follows best practices from our Technical Evaluation Rubric for the Tool / App / Software Development category
 Technical Assets - Share datasets, code, and tools with the community
 
@@ -125,14 +120,4 @@ Structure content according to type-specific standards
 
 
 
-
-## References
-- [LangChain](https://www.langchain.com/langchain)    
-- [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
-- [GitHub repository](https://github.com/project)  
-- [Groq API](https://console.groq.com/) TO BE ASKED
-- [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
-- [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
-- 
-- [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)  
 
