@@ -11,14 +11,14 @@
 
 
 ## TL;DR:
-This study presents a structured approach using LangChain to develop an AI-powered Ready Tensor Publication Explorer. This system is designed to process user inputs, execute predefined actions, and provide context-aware, informed responses.  
-This study explores the use of a Retrieval-Augmented Generation (RAG) Agent, which combines retrieval and generation functions within a unified framework to improve response accuracy and relevance.  This study investigates how to build a simple RAG-powered assistant, the Ready Tensor Publication Explorer, that answers questions based on a custom document set. Build a conversational assistant that helps users explore the contents of Ready Tensor publications by asking natural language questions.
 
-Ready Tensor Publication Explorer & Retrieval-Augmented Generation (RAG) Agent is an advanced AI-powered tool designed to automate the process of Ready Tensor technical documentation (pubblications), storing relevant content in a vector database, and enabling intelligent retrieval and question-answering. (Built with Pydantic AI and Supabase??), this system provides a scalable and efficient solution for developers, researchers, Ready Tensor users and organizations exploring the contents of Ready Tensor publications by asking natural language questions (seeking streamlined access to documentation resources (pubblications enclosed in the platform)).
-By leveraging RAG models, the system ensures accurate and contextually relevant responses to user queries. The combination of (OpenAI ?) embeddings, semantic search, and a user-friendly interface makes this tool a powerful addition to AI-driven documentation search and retrieval solutions.
+This study outlines a structured approach using LangChain to develop the AI-powered Ready Tensor Publication Explorer, a conversational assistant that interprets user inputs, performs predefined actions, and generates context-aware, informative responses. It demonstrates how to build a simple Retrieval-Augmented Generation (RAG) Agent that integrates information retrieval and natural language generation to enhance response relevance and accuracy. Using a custom set of documents, the assistant enables users to explore the contents of Ready Tensor publications through natural language queries.
 
-The LLM-RAG Ready Tensor Publication Explorer is an open-source tool designed to efficiently extract data from a sample ReadyTensor (document) dataset and answer questions using retrieval-augmented generation (RAG) techniques powered by large language models (LLMs).
+The Ready Tensor Publication Explorer and Retrieval-Augmented Generation (RAG) Agent is an advanced AI-powered tool designed to automate the handling of Ready Tensor technical documentation. It stores relevant content in a vector database and enables intelligent retrieval and question-answering through natural language queries. Built with technologies such as Pydantic AI (and ?), this system offers a scalable and efficient solution for developers, Ready Tensor users researchers, and organizations searching streamlined access to documentation resources contained within the platform (exploring the contents of Ready Tensor publications by asking natural language questions).
+By leveraging Retrieval-Augmented Generation (RAG) models, the system delivers accurate and contextually relevant responses to user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tool serves as a robust solution for AI-driven documentation search and retrieval.
+The LLM-RAG Ready Tensor Publication Explorer is an open-source tool that efficiently extracts information from a sample dataset containing Ready Tensor pubblications and answers user questions using RAG techniques powered by large language models (LLMs).
 
+The Ready Tensor Publication Explorer is an AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to streamline access to Ready Tensor documentation. It stores documents in a vector database and uses technologies like Pydantic AI, OpenAI embeddings, and semantic search to provide accurate, context-aware responses to natural language queries. As an open-source solution, it enables developers, researchers, and organizations to efficiently explore and query a Ready Tensor datasets using large language model (LLMs).
 
 ## Tool Overview 
 • A LangChain-based pipeline that includes: Prompt formulation, Vector store retrieval (e.g., 
@@ -91,6 +91,7 @@ Here are some realistic use-case examples of a RAG-powered AI Assistant using La
 ## API Documentation
 API keys stored in environment variables for secure access.
 Model used ? 
+This API provides endpoints to query and interact with ML/Tensor research papers using a RAG (Retrieval-Augmented Generation) pipeline powered by LangChain.
 
 ## References
 - [LangChain](https://www.langchain.com/langchain)    
