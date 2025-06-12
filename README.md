@@ -1,5 +1,5 @@
-# TITLE 1 Agentic AI Developer Certification: a Course Project: Retrieval-Augmented Generation (RAG) -based AI assistant application using LangChain
-# TITLE 2 Agentic AI Developer Certification: Course Project 1: Build a RAG-Powered AI Assistant: Ready Tensor Publication Explorer  
+
+# Agentic AI Developer Certification: Course Project 1: Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer  
 
 ![Image Logo](ChatGPT_Image_4_1v1_4to1_72dpi_final.jpg)
 
@@ -9,7 +9,7 @@
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
 
 
-## Abstract or TL;DR:
+## TL;DR:
 _Provide a concise summary of your project, focusing on its key contributions, methodology, and impact. Keep it brief but informative, as this is often the first thing readers will see to gauge the relevance of your work. Place this at the beginning of your publication to provide a quick overview._
 
 This study presents a structured approach using LangChain to develop an AI-powered Ready Tensor Publication Explorer. This system is designed to process user inputs, execute predefined actions, and provide context-aware, informed responses.  
@@ -85,7 +85,11 @@ Model used ?
 - [Groq API](https://console.groq.com/) TO BE VERIFIED
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
-- [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)  
+- [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)
+  
+- [The Open Source Repository Guide: Best Practices for Sharing Your AI/ML and Data Science Projects](https://app.readytensor.ai/publications/best-practices-for-ai-project-code-repositories-0llldKKtn8Xb)
+
+
 
 ## Contributing
 We welcome contributions to improve the Ready Tensor Publication Explorer. Follow guidelines on how to contribute to the project:
@@ -112,17 +116,6 @@ Acknowledgments for contributors or similar.
 
 
 
-Follows best practices from our Technical Evaluation Rubric for the Tool / App / Software Development category
-Technical Assets - Share datasets, code, and tools with the community
-
-Technical Assets/Tool/App/Software
-Introduction and documentation of specific software implementations utilizing AI/ML. Focuses on tool's utility, functionality, and practical usage rather than theoretical foundations. Includes comprehensive usage information and technical specifications.
-
-Releasing a new tool? Pick Tool/App/Software
-
-Focus on essential elements for their chosen type
-Meet audience expectations for their publication category
-Structure content according to type-specific standards
 
 
 
