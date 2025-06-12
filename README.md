@@ -81,7 +81,7 @@ Model used ?
 - [LangChain](https://www.langchain.com/langchain)    
 - [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
 - [GitHub repository](https://github.com/project)
-- [Openai API](                          TO BE VERIFIED
+- [Openai API](https://platform.openai.com/account/api-keys)                     
 - [Groq API](https://console.groq.com/) TO BE VERIFIED
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
