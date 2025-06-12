@@ -1,7 +1,7 @@
 # TITLE 1 Agentic AI Developer Certification: a Course Project: Retrieval-Augmented Generation (RAG) -based AI assistant application using LangChain
 # TITLE 2 Agentic AI Developer Certification: Course Project 1: Build a RAG-Powered AI Assistant: Ready Tensor Publication Explorer  
 
-![Image Logo](ChatGPT_Image_4_1v1.jpg)
+![Image Logo](ChatGPT_Image_4_1v1_square.jpg)
 
 ### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Memory(?), Prompt Engineering, Question-Answering, Retrieval-Augmented Generation (RAG), ReAct, Vector Databases (LLMs?)
 ### Co-Authors: chibueze.k.muoneke@gmail.com TO BE ENCLOSED Joshua N
