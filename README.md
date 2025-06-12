@@ -4,7 +4,7 @@
 ![Image Logo](enclose_image.jpg)
 
 ### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Memory(?), Prompt Engineering, Question-Answering, Retrieval-Augmented Generation (RAG), ReAct, Vector Databases (LLMs?)
-### Co-Authors: chibueze.k.muoneke@gmail.com, TO BE ENCLOSED Joshua N
+### Co-Authors: chibueze.k.muoneke@gmail.com TO BE ENCLOSED Joshua N
 ### Models : [Github](https://githup_project)  TO BE ENCLOSED THE FINAL GitHub
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
 
@@ -81,15 +81,21 @@ Model used ?
 - [LangChain](https://www.langchain.com/langchain)    
 - [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
 - [GitHub repository](https://github.com/project)
-- [Openai API](                          TO BE ASKED
-- [Groq API](https://console.groq.com/) TO BE ASKED
+- [Openai API](                          TO BE VERIFIED
+- [Groq API](https://console.groq.com/) TO BE VERIFIED
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
 - [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)  
 
 ## Contributing
+We welcome contributions to improve the Ready Tensor Publication Explorer. Follow guidelines on how to contribute to the project:
 
-Guidelines on how to contribute to the project.
+1. Fork the repository [GitHub repository](https://github.com/project)
+   
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-xyz
+   ```
 
 ## License
 
