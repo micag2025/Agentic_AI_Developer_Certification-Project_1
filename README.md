@@ -1,5 +1,5 @@
 
-# Agentic AI Developer Certification: Course Project 1: Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer  
+# Agentic AI Developer Certification: Course Project: Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer  
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
 
@@ -10,8 +10,6 @@
 
 
 ## TL;DR:
-_Provide a concise summary of your project, focusing on its key contributions, methodology, and impact. Keep it brief but informative, as this is often the first thing readers will see to gauge the relevance of your work. Place this at the beginning of your publication to provide a quick overview._
-
 This study presents a structured approach using LangChain to develop an AI-powered Ready Tensor Publication Explorer. This system is designed to process user inputs, execute predefined actions, and provide context-aware, informed responses.  
 This study explores the use of a Retrieval-Augmented Generation (RAG) Agent, which combines retrieval and generation functions within a unified framework to improve response accuracy and relevance.  This study investigates how to build a simple RAG-powered assistant, the Ready Tensor Publication Explorer, that answers questions based on a custom document set. Build a conversational assistant that helps users explore the contents of Ready Tensor publications by asking natural language questions.
 
@@ -29,6 +27,14 @@ reasoning using ReAct or CoT-style steps
 • Evaluation loop or basic logging for QA   
 • Basic UX (CLI, notebook, or minimal UI)   
 
+ Setup Overview
+RAG (Retrieval-Augmented Generation) is used to augment LLM answers with data from a scientific paper corpus.  
+LangChain is the orchestration layer to manage:  
+   - Document loading  
+   - Embedding and indexing  
+   - Retrieval  
+   - Prompting and LLM responses  
+
 
 ## Features (to be changed)
 • _Automated Documentation ReadyTensor_: Extracts and processes documentation from various sources(?) while maintaining structural integrity.  
@@ -41,7 +47,7 @@ reasoning using ReAct or CoT-style steps
 • _Continuous Updates_: Automatically refreshes stored documentation at regular intervals to keep information up-to-date.  
 
 
-## Installation Instructions _Detailed installation instructions_
+## Installation Instructions
 1. Clone this repository
    ```bash
    git clone https://github.com/......
@@ -69,9 +75,16 @@ reasoning using ReAct or CoT-style steps
 
 
 ## Usage Examples 
-A guide on how to use the project, with examples.
 This tool is ideal for document summarization, academic research, and more.
-
+Below are several usage examples of a RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain. The assistant is built to help users explore and understand scientific publications in TensorFlow.
+- _Get summaries of a paper or topic_  Eventually enclose the snippet code and output 
+- _Chat with a specific paper_         Eventually enclose the snippet code and output 
+- 
+Here are some realistic use-case examples of a RAG-powered AI Assistant using LangChain to explore Tensor publications, broken down by specific fields like Academia and Development.
+- _Use Cases in Ready Tensor_ : 
+- _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing
+- _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design,
+- _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors
 
 ## API Documentation
 API keys stored in environment variables for secure access.
@@ -81,7 +94,7 @@ Model used ?
 - [LangChain](https://www.langchain.com/langchain)    
 - [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
 - [GitHub repository](https://github.com/project)
-- [Openai API](https://platform.openai.com/account/api-keys)                     
+- [Openai API](https://platform.openai.com/account/api-keys)    TO BE VERIFIED                 
 - [Groq API](https://console.groq.com/) TO BE VERIFIED
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
