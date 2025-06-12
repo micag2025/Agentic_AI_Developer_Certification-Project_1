@@ -48,7 +48,8 @@ LangChain is the orchestration layer to manage:
 
 
 ## Installation Instructions
-1. Clone this repository
+The repository is available ...................
+1. Clone the repository
    ```bash
    git clone https://github.com/......
    or cd intelligent-file-task-automation
@@ -93,13 +94,12 @@ Model used ?
 ## References
 - [LangChain](https://www.langchain.com/langchain)    
 - [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
-- [GitHub repository](https://github.com/project)
+- [GitHub repository](https://github.com/project)                TO BE UPDATED 
 - [Openai API](https://platform.openai.com/account/api-keys)    TO BE VERIFIED                 
 - [Groq API](https://console.groq.com/) TO BE VERIFIED
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
 - [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)
-  
 - [The Open Source Repository Guide: Best Practices for Sharing Your AI/ML and Data Science Projects](https://app.readytensor.ai/publications/best-practices-for-ai-project-code-repositories-0llldKKtn8Xb)
 
 
@@ -115,16 +115,13 @@ We welcome contributions to improve the Ready Tensor Publication Explorer. Follo
    ```
 
 ## License
-
-MIT licence ?  
+This repository is licensed under the MIT License. 
 
 ## Contact
-
-Your contact information.
+? 
 
 ## Acknowledgments
-
-Acknowledgments for contributors or similar.
+This project is part of the **Agentic AI Developer Certification**  course offered by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the original developers in providing the sample Ready Tensor dataset, the guidelines /documentation and RAG framework. Their work has been instrumental in building an effective and scalable solution for AI-powered documentation retrieval.
 
 
 
