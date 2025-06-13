@@ -78,8 +78,7 @@ Here are some realistic use-case examples of the RAG-powered AI Assistant to exp
 
 ## API Documentation
 API keys stored in environment variables for secure access.
-Model used ? 
-These API provide endpoints to query and interact with ML/Tensor research papers using a RAG pipeline powered by LangChain.
+These API provide endpoints to query and interact with ML/Tensor research pubblications using a RAG pipeline powered by LangChain.
 
 ## References
 - [LangChain](https://www.langchain.com/langchain)    
