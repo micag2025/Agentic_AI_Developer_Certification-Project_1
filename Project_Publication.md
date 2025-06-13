@@ -32,7 +32,7 @@ Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB
 • _Automated Documentation ReadyTensor_: Extracts and processes documentation from a sample dataset while maintaining structural integrity.  
 • _Vector Database Storage_: Uses Chroma as a scalable and optimized backend for storing embeddings and document metadata.  
 • _Semantic Search with OpenAI Embeddings_: Enables intelligent, context-aware lookup of relevant documentation sections, significantly improving search efficiency.  
-• _RAG-based Q&A System_: Employs Retrieval-Augmented Generation to provide precise and contextually accurate answers to user queries.  
+• _RAG-based Q&A System_: Employs RAG to provide precise and contextually accurate answers to user queries.  
 • _Minimal UI_: Offers an interactive and intuitive querying experience, making documentation searches easy for users.  
 • _Fast and Scalable Processing_: Efficient indexing and retrieval mechanisms allow for quick searches across large documentation sets.  
 
@@ -71,9 +71,9 @@ The assistant (this tool?) is built to help users explore and understand publica
 EVENTUALLY ENCLOSE SNIPPET CODE AND OUTPUT OF THE ABOVE EXAMPLES   
 
 Here are some realistic use-case examples of the RAG-powered AI Assistant to explore Tensor publications, broken down by specific fields like Academia and Development.
-- _Use Cases in Ready Tensor_ : Get summaries of a paper or topic, Chat with a specific paper
+- _Use Cases in Ready Tensor_ : Summaries of a paper or topic, Chat with a specific paper
 - _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing
-- _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design,
+- _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design
 - _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors
 
 ## API Documentation
