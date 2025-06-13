@@ -70,14 +70,14 @@ The assistant (this tool?) is built to help users explore and understand publica
 EVENTUALLY ENCLOSE SNIPPET CODE AND OUTPUT OF THE ABOVE EXAMPLES   
 
 Here are some realistic use-case examples of the RAG-powered AI Assistant to explore Tensor publications, broken down by specific fields like Academia and Development.
-- _Use Cases in Ready Tensor_ : Summaries of a paper or topic, Chat with a specific paper
-- _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing
-- _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design
-- _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors
+- _Use Cases in Ready Tensor_ : Summaries of a paper or topic, Chat with a specific paper.
+- _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing.
+- _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design.
+- _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors.
 
 
 ## API Documentation
-API key are stored in environment variables for secure access. This API key provides endpoints to query and interact with ML/Tensor pubblications using the RAG pipeline powered by LangChain.
+API key are stored in environment variables for secure access. This API key provides endpoints to query and interact with ML/Tensor publications using the RAG pipeline powered by LangChain.
 
 
 ## References
