@@ -30,7 +30,7 @@ Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB
 
 ## Features
 • _Automated Documentation ReadyTensor_: Extracts and processes documentation from a sample dataset while maintaining structural integrity.  
-• _Vector Database Storage_: Uses Chroma (or FAISS?) as a scalable and optimized backend for storing embeddings and document metadata.  
+• _Vector Database Storage_: Uses Chroma as a scalable and optimized backend for storing embeddings and document metadata.  
 • _Semantic Search with OpenAI Embeddings_: Enables intelligent, context-aware lookup of relevant documentation sections, significantly improving search efficiency.  
 • _RAG-based Q&A System_: Employs Retrieval-Augmented Generation to provide precise and contextually accurate answers to user queries.  
 • _Minimal UI_: Offers an interactive and intuitive querying experience, making documentation searches easy for users.  
