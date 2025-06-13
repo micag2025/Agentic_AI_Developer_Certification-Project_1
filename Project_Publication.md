@@ -100,6 +100,7 @@ This API provides endpoints to query and interact with ML/Tensor research papers
 - [GitHub repository](https://github.com/project)                TO BE UPDATED 
 - [Openai API](https://platform.openai.com/account/api-keys)    TO BE VERIFIED                 
 - [Groq API](https://console.groq.com/) TO BE VERIFIED
+- [Ready Tensor Certifications](https://app.readytensor.ai/hubs/ready_tensor_certifications)
 - [AAIDC Module 1 Project: Foundations of Agentic AI – Your First RAG Assistant](https://app.readytensor.ai/publications/aaidc-module-1-project-foundations-of-agentic-ai-your-first-rag-assistant-4n07ViGCey0l)
 - [Project 1 Submission Guidelines - Agentic AI Developer Certification (AAIDC-Week3)](https://app.readytensor.ai/publications/project-1-submission-guidelines-agentic-ai-developer-certification-aaidc-week3-BblNcQTBi5Os)  
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
