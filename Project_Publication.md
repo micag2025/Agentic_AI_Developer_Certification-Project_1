@@ -7,7 +7,7 @@
 
 ### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Memory(?), Prompt Engineering, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases (LLMs?)
 ### Co-Authors: chibueze.k.muoneke@gmail.com TO BE ENCLOSED Joshua N
-### Models : [Github](https://githup_project)  TO BE ENCLOSED THE FINAL GitHub
+### Models : [Github](https://githup_project)  TO BE ENCLOSED
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
 
 
@@ -18,11 +18,11 @@ It stores documents in a vector database and uses technologies like Pydantic AI,
 
 ## Tool Overview 
 • A LangChain-based pipeline that includes: Prompt formulation, Vector store retrieval (TO BE SEELCTED:
-FAISS or Chroma), Response generation from an LLM   
+FAISS or Chroma), Response generation from an LLM     
 • Optional enhancements: Basic memory components (e.g., session memory), Intermediate 
-reasoning using ReAct or CoT-style steps    (ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?)
-• Evaluation loop or basic logging for QA   TO BE SEELCTED
-• Basic UX (CLI, notebook, or minimal UI)   TO BE SEELCTED
+reasoning using ReAct or CoT-style steps    (ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?)  
+• Evaluation loop or basic logging for QA   TO BE SEELCTED  
+• Basic UX (CLI, notebook, or minimal UI)   TO BE SEELCTED  
 
 Setup Overview
 RAG  is used to augment LLM answers with data from a scientific paper corpus.  
@@ -34,14 +34,12 @@ LangChain is the orchestration layer to manage:
 
 
 ## Features
-• _Automated Documentation ReadyTensor_: Extracts and processes documentation from various sources(?) while maintaining structural integrity.  
+• _Automated Documentation ReadyTensor_: Extracts and processes documentation from a sample dataset while maintaining structural integrity.  
 • _Vector Database Storage_: Uses Chroma (or FAISS?) as a scalable and optimized backend for storing embeddings and document metadata.  
 • _Semantic Search with OpenAI Embeddings_: Enables intelligent, context-aware lookup of relevant documentation sections, significantly improving search efficiency.  
 • _RAG-based Q&A System_: Employs Retrieval-Augmented Generation to provide precise and contextually accurate answers to user queries.  
-• _Preserves Code Blocks & Formatting_: Ensures that retrieved documentation retains its original structure, including syntax highlighting and paragraph integrity.  
-• _Modern UI with ?_: Offers an interactive and intuitive querying experience, making documentation searches seamless for users.  
+• _Minimal UI_: Offers an interactive and intuitive querying experience, making documentation searches easy for users.  
 • _Fast and Scalable Processing_: Efficient indexing and retrieval mechanisms allow for quick searches across large documentation sets.  
-• _Continuous Updates_: Automatically refreshes stored documentation at regular intervals to keep information up-to-date.  
 
 
 ## Installation Instructions
