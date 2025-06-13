@@ -41,16 +41,19 @@ Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB
 This pubblication has a GitHub (code) repository attached under the "Models" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 1. Clone the repository
    ```bash
-   git clone https://github.com/......  TO BE UPDATED 
-   ```
+   git clone https://github.com/<your-org>/<your-repo>.git
+   cd <your-repo>
+   git checkout dev
+   ```   
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
-   source venv/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate       # Linux / macOS
+   .\.venv\Scripts\activate      # Windows
    ```
-3. Set your environment variables:
+4. Set your environment variables:
    ```
-   OPEN_API_KEY=your_open_api_key_here   ??
+   OPEN_API_KEY=your_open_api_key_here  
    ```
 8. Install dependencies:
    ```bash
