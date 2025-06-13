@@ -1,6 +1,6 @@
 # Agentic AI Developer Certification: Course Project: 
   # Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer   
-  # OR a RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain  
+  # A RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain  
 
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
@@ -17,15 +17,15 @@ The Ready Tensor Publication Explorer is an advanced AI-powered tool that utiliz
 It stores documents in a vector database and uses technologies like Pydantic AI, OpenAI embeddings, and semantic search to provide accurate, context-aware responses to natural language queries. This study outlines a structured approach using LangChain to develop the AI-powered Ready Tensor Publication Explorer, a conversational assistant that interprets user inputs, performs predefined actions, and generates context-aware, informative responses. It demonstrates how to build a simple Retrieval-Augmented Generation (RAG) Agent that integrates information retrieval and natural language generation to enhance response relevance and accuracy. Using a sample dataset of documents, the assistant enables users to explore the contents of Ready Tensor publications through natural language queries.
 
 ## Tool Overview 
-• A LangChain-based pipeline that includes: Prompt formulation, Vector store retrieval (e.g., 
-FAISS, Chroma), Response generation from an LLM   
+• A LangChain-based pipeline that includes: Prompt formulation, Vector store retrieval (TO BE SEELCTED:
+FAISS or Chroma), Response generation from an LLM   
 • Optional enhancements: Basic memory components (e.g., session memory), Intermediate 
-reasoning using ReAct or CoT-style steps   
-• Evaluation loop or basic logging for QA   
-• Basic UX (CLI, notebook, or minimal UI)   
+reasoning using ReAct or CoT-style steps    (ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?)
+• Evaluation loop or basic logging for QA   TO BE SEELCTED
+• Basic UX (CLI, notebook, or minimal UI)   TO BE SEELCTED
 
- Setup Overview
-RAG (Retrieval-Augmented Generation) is used to augment LLM answers with data from a scientific paper corpus.  
+Setup Overview
+RAG  is used to augment LLM answers with data from a scientific paper corpus.  
 LangChain is the orchestration layer to manage:  
    - Document loading  
    - Embedding and indexing  
@@ -33,7 +33,7 @@ LangChain is the orchestration layer to manage:
    - Prompting and LLM responses  
 
 
-## Features (to be changed)
+## Features
 • _Automated Documentation ReadyTensor_: Extracts and processes documentation from various sources(?) while maintaining structural integrity.  
 • _Vector Database Storage_: Uses Chroma (or FAISS?) as a scalable and optimized backend for storing embeddings and document metadata.  
 • _Semantic Search with OpenAI Embeddings_: Enables intelligent, context-aware lookup of relevant documentation sections, significantly improving search efficiency.  
