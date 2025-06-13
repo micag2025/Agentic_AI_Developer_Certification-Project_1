@@ -1,4 +1,4 @@
-# Agentic AI Developer Certification: Course Project: A RAG-powered AI assistant for a Tensor Publication Explorer using LangChain  
+# Agentic AI Developer Certification: Course Project: A RAG-powered AI assistant for a Tensor Publication Explorer  
 
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
