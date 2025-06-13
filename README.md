@@ -12,6 +12,7 @@ Create a short publication on the Ready Tensor platform that:
    - Meets at least 70% of the listed criteria    
 
 - Feel free to enclose any comments or suggestions that might be relevant for the pubblication
+  
 - I would like to ask you your view for few issues on the following sections:
    - _Title_ :
       - option1 : Agentic AI Developer Certification: Course Project: Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer
@@ -22,7 +23,7 @@ Create a short publication on the Ready Tensor platform that:
       - Need to be updated based on the contents of the GitHub  
         
   - _Usage Examples_  
-      - What about to show up several usage examples of a RAG-powered AI assistant for a "Tensor Publication Explorer" , such as Get summaries of a paper or topic or Chat with a specific paper.  Eventually we could enclosed some snippet code and output of these examples.   
+      - What about to show up several usage examples of the Tensor Publication Explorer, such as Get summaries of a paper or topic or Chat with a specific paper.  Eventually we could enclosed some snippet code and output of these examples.   
 
   - _ API Documentation_
      - Some suggestion what could we enclosed in this section?   
