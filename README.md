@@ -2,9 +2,7 @@
 Please, have a  quick look at the draft of Project_Pubblication.md file that is enclosed in this repo.  
 
 **Few remarks** : 
-- The draft has been built up following the above submission checklist: 
-
-Following [✅ Submission Checklist](https://app.readytensor.ai/publications/aaidc-module-1-project-foundations-of-agentic-ai-your-first-rag-assistant-4n07ViGCey0l)  
+- The draft has been built up following the above [✅ Submission Checklist](https://app.readytensor.ai/publications/aaidc-module-1-project-foundations-of-agentic-ai-your-first-rag-assistant-4n07ViGCey0l)  and [Project 1 Submission Guidelines - Agentic AI Developer Certification (AAIDC-Week3)](https://app.readytensor.ai/publications/project-1-submission-guidelines-agentic-ai-developer-certification-aaidc-week3-BblNcQTBi5Os)  
  
 To complete this project, you need to submit :  
 1. 📝 Project Publication  
