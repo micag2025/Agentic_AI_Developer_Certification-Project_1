@@ -1,6 +1,6 @@
-# Agentic AI Developer Certification: Course Project: Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer   
-
-# Agentic AI Developer Certification: Course Project: a RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain  
+# Agentic AI Developer Certification: Course Project: 
+  # Build the RAG-Powered AI Assistant Ready Tensor Publication Explorer   
+  # OR a RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain  
 
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
@@ -50,11 +50,10 @@ LangChain is the orchestration layer to manage:
 
 
 ## Installation Instructions
-The repository is available ...................
+This pubblication has a GitHub (code) repository attached under the "Models" section of the publication. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 1. Clone the repository
    ```bash
-   git clone https://github.com/......
-   or cd intelligent-file-task-automation
+   git clone https://github.com/......  TO BE UPDATED 
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -63,18 +62,15 @@ The repository is available ...................
    ```
 3. Set your environment variables:
    ```
-   OPEN_API_KEY=your_open_api_key_here ??
-   GROQ_API_KEY=your_groq_api_key_here ??
+   OPEN_API_KEY=your_open_api_key_here   ??
+   GROQ_API_KEY=your_groq_api_key_here   ??
    ```
 8. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-9. Run locally:
-   ```bash
-   python app.py  (??)
-   ```
-10. Run the tool on the [sample dataset of the ReadyTensor publications](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).
+9. Run locally the tool on the [sample dataset of the ReadyTensor publications](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).  
+    _Note_ The sample dataset is available also under the "Models" section of the publication.  
 
 
 ## Usage Examples 
