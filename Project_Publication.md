@@ -12,26 +12,21 @@
 
 
 ## TL;DR:
-The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. (Built with technologies such as Pydantic AI (and ?),) By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for developers, Ready Tensor users, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents by asking natural language questions. (enables developers, researchers, and organizations to efficiently explore and query a Ready Tensor datasets).
+The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents by asking questions. 
 
-It stores documents in a vector database and uses technologies like Pydantic AI, OpenAI embeddings, and semantic search to provide accurate, context-aware responses to natural language queries. This study outlines a structured approach using LangChain to develop the AI-powered Ready Tensor Publication Explorer, a conversational assistant that interprets user inputs, performs predefined actions, and generates context-aware, informative responses. It demonstrates how to build a simple Retrieval-Augmented Generation (RAG) Agent that integrates information retrieval and natural language generation to enhance response relevance and accuracy. Using a sample dataset of documents, the assistant enables users to explore the contents of Ready Tensor publications through natural language queries.
 
 ## Tool Overview 
-• A LangChain-based pipeline that includes: Prompt formulation, Vector store retrieval (TO BE SEELCTED:
-FAISS or Chroma), Response generation from an LLM     
-• Optional enhancements: Basic memory components (e.g., session memory), Intermediate 
-reasoning using ReAct or CoT-style steps    (ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?)  
-• Evaluation loop or basic logging for QA   TO BE SEELCTED  
-• Basic UX (CLI, notebook, or minimal UI)   TO BE SEELCTED  
+A LangChain-based pipeline that connects:
+- Prompt formulation
+- Vector store retrieval (e.g., FAISS, Chroma, or alternatives) TO BE SEELCTED
+- LLM-generated response
+- Document ingestion into the vector store
+- Basic UX for interaction (CLI, notebook, or minimal UI)  TO BE SEELCTED 
+- Run a few example queries to test retrieval and response quality
 
-Setup Overview
-RAG  is used to augment LLM answers with data from a scientific paper corpus.  
-LangChain is the orchestration layer to manage:  
-   - Document loading  
-   - Embedding and indexing  
-   - Retrieval  
-   - Prompting and LLM responses  
-
+Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?  
+- Add session-based memory or intermediate reasoning steps (e.g., ReAct or CoT-style chaining)
+- Include basic logging or observability if you’d like to go further
 
 ## Features
 • _Automated Documentation ReadyTensor_: Extracts and processes documentation from a sample dataset while maintaining structural integrity.  
@@ -43,7 +38,7 @@ LangChain is the orchestration layer to manage:
 
 
 ## Installation Instructions
-This pubblication has a GitHub (code) repository attached under the "Models" section of the publication. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
+This pubblication has a GitHub (code) repository attached under the "Models" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 1. Clone the repository
    ```bash
    git clone https://github.com/......  TO BE UPDATED 
@@ -66,14 +61,15 @@ This pubblication has a GitHub (code) repository attached under the "Models" sec
     _Note_ The sample dataset is available also under the "Models" section of the publication.  
 
 
-## Usage Examples 
-This tool is ideal for document summarization, academic research, and more.
-Below are several usage examples of a RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain. The assistant is built to help users explore and understand scientific publications in TensorFlow.
-- _Get summaries of a paper or topic_  Eventually enclose the snippet code and output 
-- _Chat with a specific paper_         Eventually enclose the snippet code and output 
-- 
-Here are some realistic use-case examples of a RAG-powered AI Assistant using LangChain to explore Tensor publications, broken down by specific fields like Academia and Development.
-- _Use Cases in Ready Tensor_ : 
+## Usage Examples   
+The assistant (this tool?) is built to help users explore and understand publications in TensorFlow. Below are several usage examples of the RAG-powered AI assistant for a  Tensor Publication Explorer.  
+- _Get summaries of a paper or topic_  : e.g. What’s this publication about?   
+- _Chat with a specific paper_         : e.g. What models or tools were used?, Any limitations or assumptions?
+
+EVENTUALLY ENCLOSE SNIPPET CODE AND OUTPUT OF THE ABOVE EXAMPLES   
+
+Here are some realistic use-case examples of the RAG-powered AI Assistant to explore Tensor publications, broken down by specific fields like Academia and Development.
+- _Use Cases in Ready Tensor_ : Get summaries of a paper or topic, Chat with a specific paper
 - _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing
 - _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design,
 - _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors
@@ -81,7 +77,7 @@ Here are some realistic use-case examples of a RAG-powered AI Assistant using La
 ## API Documentation
 API keys stored in environment variables for secure access.
 Model used ? 
-This API provides endpoints to query and interact with ML/Tensor research papers using a RAG (Retrieval-Augmented Generation) pipeline powered by LangChain.
+These API provide endpoints to query and interact with ML/Tensor research papers using a RAG pipeline powered by LangChain.
 
 ## References
 - [LangChain](https://www.langchain.com/langchain)    
@@ -116,6 +112,6 @@ This repository is licensed under the MIT License.
 ? 
 
 ## Acknowledgments
-This project is part of the **Agentic AI Developer Certification**  course offered by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the original developers in providing the sample Ready Tensor dataset, the guidelines /documentation and RAG framework. Their work has been instrumental in building an effective and scalable solution for AI-powered documentation retrieval.
+This project is part of the **Agentic AI Developer Certification**  course offered by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the original developers in providing the sample Ready Tensor dataset, the guidelines /documentation and RAG framework. Their work has been valuable in building an effective and scalable solution for AI-powered documentation retrieval.
 
 
