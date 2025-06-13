@@ -38,7 +38,7 @@ Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB
 
 
 ## Installation Instructions
-This pubblication has a GitHub (code) repository attached under the "Models" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
+This pubblication has a GitHub code repository attached under the "Models" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 1. Clone the repository
    ```bash
    git clone https://github.com/<your-org>/<your-repo>.git
@@ -99,7 +99,7 @@ These API provide endpoints to query and interact with ML/Tensor research papers
 ## Contributing
 We welcome contributions to improve the Ready Tensor Publication Explorer. Follow guidelines on how to contribute to the project:
 
-1. Fork the repository [GitHub repository](https://github.com/project)
+1. Fork the repository [GitHub repository](https://github.com/Joshua-Abok/rag_apk))
    
 2. Create a new branch:
    ```bash
@@ -110,7 +110,7 @@ We welcome contributions to improve the Ready Tensor Publication Explorer. Follo
 This repository is licensed under the MIT License. 
 
 ## Contact
-? 
+chibueze.k.muoneke@gmail.com, nyajuaya.j.a@gmail.com 
 
 ## Acknowledgments
 This project is part of the **Agentic AI Developer Certification**  course offered by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the original developers in providing the sample Ready Tensor dataset, the guidelines /documentation and RAG framework. Their work has been valuable in building an effective and scalable solution for AI-powered documentation retrieval.
