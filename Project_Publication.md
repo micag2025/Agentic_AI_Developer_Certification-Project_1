@@ -1,4 +1,4 @@
-# Agentic AI Developer Certification: Course Project: A RAG-powered AI assistant for a "Tensor Publication Explorer" using LangChain  
+# Agentic AI Developer Certification: Course Project: A RAG-powered AI assistant for a Tensor Publication Explorer using LangChain  
 
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
@@ -10,7 +10,7 @@
 
 
 ## TL;DR:
-The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents andasking questions. 
+The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents and asking questions. 
 
  
 ## Tool Overview 
@@ -25,6 +25,7 @@ A LangChain-based pipeline that connects:
 Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?  
 - Add session-based memory or intermediate reasoning steps (e.g., ReAct or CoT-style chaining)
 - Include basic logging or observability if you’d like to go further
+
 
 ## Features
 • _Automated Documentation ReadyTensor_: Extracts and processes documentation from a sample dataset while maintaining structural integrity.  
@@ -74,9 +75,10 @@ Here are some realistic use-case examples of the RAG-powered AI Assistant to exp
 - _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design
 - _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors
 
+
 ## API Documentation
-API key are stored in environment variables for secure access.
-This API provide endpoints to query and interact with ML/Tensor research pubblications using a RAG pipeline powered by LangChain.
+API key are stored in environment variables for secure access. This API key provides endpoints to query and interact with ML/Tensor pubblications using the RAG pipeline powered by LangChain.
+
 
 ## References
 - [LangChain](https://www.langchain.com/langchain)    
@@ -92,10 +94,8 @@ This API provide endpoints to query and interact with ML/Tensor research pubblic
 - [The Open Source Repository Guide: Best Practices for Sharing Your AI/ML and Data Science Projects](https://app.readytensor.ai/publications/best-practices-for-ai-project-code-repositories-0llldKKtn8Xb)
 
 
-
 ## Contributing
 We welcome contributions to improve the Ready Tensor Publication Explorer. Follow guidelines on how to contribute to the project:
-
 1. Fork the [GitHub repository](https://github.com/Joshua-Abok/rag_apk)
    
 2. Create a new branch:
@@ -106,8 +106,10 @@ We welcome contributions to improve the Ready Tensor Publication Explorer. Follo
 ## License
 This repository is licensed under the MIT License. 
 
+
 ## Contact
 chibueze.k.muoneke@gmail.com, michelaagostini73@gmail.com, nyajuaya.j.a@gmail.com 
+
 
 ## Acknowledgments
 This project is part of the **Agentic AI Developer Certification**  course offered by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the Ready Tensor developers in providing the sample Ready Tensor dataset, the guidelines /documentation and RAG framework. Their work has been valuable in building an effective and scalable solution for the AI-powered LLM-RAG Ready Tensor Publication Explorer.
