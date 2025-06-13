@@ -19,7 +19,7 @@ A LangChain-based pipeline that connects:
 - Vector store retrieval Chroma
 - Large Language Models (LLM)-generated response
 - Document ingestion into the vector store
-- Basic UX for interaction (CLI, notebook, or minimal UI)  TO BE SEELCTED 
+- Basic UX for interaction (minimal UI)  
 - Run a few example queries to test retrieval and response quality
 
 Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?  
@@ -33,7 +33,7 @@ Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB
 • _Semantic Search with OpenAI Embeddings_: Enables intelligent, context-aware lookup of relevant documentation sections, significantly improving search efficiency.  
 • _RAG-based Q&A System_: Employs RAG to provide precise and contextually accurate answers to user queries.  
 • _Minimal UI_: Offers an interactive and intuitive querying experience, making documentation searches easy for users.  
-• _Fast and Scalable Processing_: Efficient indexing and retrieval mechanisms allow for quick searches across large documentation sets.  
+• _Fast and Scalable Processing_: Efficient indexing and retrieval mechanisms allow for quick searches across large documentation datasets.  
 
 
 ## Installation Instructions
