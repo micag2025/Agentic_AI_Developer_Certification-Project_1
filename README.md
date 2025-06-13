@@ -19,6 +19,7 @@ Create a short publication on the Ready Tensor platform that:
       - option 3 : ? other suggestions are welkom!
     
     - _Tool Overview_
+      - Need to be updated based on the contents of the GitHub 
        - 
 
 
