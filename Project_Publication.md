@@ -18,7 +18,7 @@ The Ready Tensor Publication Explorer is an advanced AI-powered tool that utiliz
 ## Tool Overview 
 A LangChain-based pipeline that connects:
 - Prompt formulation
-- Vector store retrieval (e.g., FAISS, Chroma, or alternatives) TO BE SEELCTED
+- Vector store retrieval Chroma
 - LLM-generated response
 - Document ingestion into the vector store
 - Basic UX for interaction (CLI, notebook, or minimal UI)  TO BE SEELCTED 
