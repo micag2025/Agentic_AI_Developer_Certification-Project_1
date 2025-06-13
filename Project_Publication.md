@@ -6,8 +6,8 @@
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
 
 ### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Memory(?), Prompt Engineering, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases (LLMs?)
-### Co-Authors: chibueze.k.muoneke@gmail.com TO BE ENCLOSED Joshua N
-### Models : [Github](https://githup_project)  TO BE ENCLOSED
+### Co-Authors: chibueze.k.muoneke@gmail.com, nyajuaya.j.a@gmail.com 
+### Models : [Github](https://github.com/Joshua-Abok/rag_apk)
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
 
 
@@ -51,7 +51,6 @@ This pubblication has a GitHub (code) repository attached under the "Models" sec
 3. Set your environment variables:
    ```
    OPEN_API_KEY=your_open_api_key_here   ??
-   GROQ_API_KEY=your_groq_api_key_here   ??
    ```
 8. Install dependencies:
    ```bash
@@ -82,9 +81,8 @@ These API provide endpoints to query and interact with ML/Tensor research papers
 ## References
 - [LangChain](https://www.langchain.com/langchain)    
 - [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
-- [GitHub repository](https://github.com/project)                TO BE UPDATED 
-- [Openai API](https://platform.openai.com/account/api-keys)    TO BE VERIFIED                 
-- [Groq API](https://console.groq.com/) TO BE VERIFIED
+- [GitHub repository](https://github.com/Joshua-Abok/rag_apk)               
+- [Openai API](https://platform.openai.com/account/api-keys)                 
 - [Ready Tensor Certifications](https://app.readytensor.ai/hubs/ready_tensor_certifications)
 - [AAIDC Module 1 Project: Foundations of Agentic AI – Your First RAG Assistant](https://app.readytensor.ai/publications/aaidc-module-1-project-foundations-of-agentic-ai-your-first-rag-assistant-4n07ViGCey0l)
 - [Project 1 Submission Guidelines - Agentic AI Developer Certification (AAIDC-Week3)](https://app.readytensor.ai/publications/project-1-submission-guidelines-agentic-ai-developer-certification-aaidc-week3-BblNcQTBi5Os)  
