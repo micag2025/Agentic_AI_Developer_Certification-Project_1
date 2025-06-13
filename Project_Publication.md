@@ -99,7 +99,7 @@ These API provide endpoints to query and interact with ML/Tensor research papers
 ## Contributing
 We welcome contributions to improve the Ready Tensor Publication Explorer. Follow guidelines on how to contribute to the project:
 
-1. Fork the repository [GitHub repository](https://github.com/Joshua-Abok/rag_apk))
+1. Fork the [GitHub repository](https://github.com/Joshua-Abok/rag_apk)
    
 2. Create a new branch:
    ```bash
