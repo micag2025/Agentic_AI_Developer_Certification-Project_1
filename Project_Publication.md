@@ -67,8 +67,6 @@ The assistant (this tool?) is built to help users explore and understand publica
 - _Get summaries of a paper or topic_  : e.g. What’s this publication about?   
 - _Chat with a specific paper_         : e.g. What models or tools were used?, Any limitations or assumptions?
 
-EVENTUALLY ENCLOSE SNIPPET CODE AND OUTPUT OF THE ABOVE EXAMPLES   
-
 Here are some realistic use-case examples of the RAG-powered AI Assistant to explore Tensor publications, broken down by specific fields like Academia and Development.
 - _Use Cases in Ready Tensor_ : Summaries of a paper or topic, Chat with a specific paper.
 - _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing.
