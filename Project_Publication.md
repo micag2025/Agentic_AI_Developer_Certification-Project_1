@@ -20,9 +20,7 @@ A LangChain-based pipeline that connects:
 - Document ingestion into the vector store
 - Basic UX for interaction (minimal UI)  
 - Run a few example queries to test retrieval and response quality
-
-Optional enhancements: ARE THESE OPTIONAL TOOLS HAVE BEEN ENCLOSED IN THE GithUB?  
-- Add session-based memory or intermediate reasoning steps (e.g., ReAct or CoT-style chaining)
+- Add session-based memory or intermediate reasoning steps ( ReAct)
 - Include basic logging or observability if you’d like to go further
 
 
