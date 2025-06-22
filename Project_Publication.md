@@ -2,7 +2,7 @@
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
 
-### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Memory(?), Prompt Engineering, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases
+### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases
 ### Co-Authors: chibueze.k.muoneke@gmail.com, nyajuaya.j.a@gmail.com 
 ### Models : [Github](https://github.com/Joshua-Abok/rag_apk)
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
@@ -20,8 +20,8 @@ A LangChain-based pipeline that connects:
 - Document ingestion into the vector store
 - Basic UX for interaction (minimal UI)  
 - Run a few example queries to test retrieval and response quality
-- Add session-based memory or intermediate reasoning steps ( ReAct)
-- Include basic logging or observability if you’d like to go further
+- Session-based memory or (AND?) intermediate reasoning steps (ReAct)
+
 
 
 ## Features
@@ -34,7 +34,7 @@ A LangChain-based pipeline that connects:
 
 
 ## Installation Instructions
-This pubblication has a GitHub code repository attached under the "Models" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
+This pubblication has a GitHub code repository attached under the "Models" ("Codes") section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 1. Clone the repository
    ```bash
    git clone https://github.com/<your-org>/<your-repo>.git
@@ -47,20 +47,20 @@ This pubblication has a GitHub code repository attached under the "Models" secti
    source .venv/bin/activate       # Linux / macOS
    .\.venv\Scripts\activate      # Windows
    ```
-4. Set your environment variables:
+3. Set your environment variables:
    ```
    OPEN_API_KEY=your_open_api_key_here  
    ```
-8. Install dependencies:
+4. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-9. Run locally the tool on the [sample dataset of the ReadyTensor publications](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).  
+5. Run locally the tool on the [sample dataset of the ReadyTensor publications](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).  
     _Note_ The sample dataset is available also under the "Models" section of the publication.  
 
 
 ## Usage Examples   
-The assistant (this tool?) is built to help users explore and understand publications in TensorFlow. Below are several usage examples of the RAG-powered AI assistant for a  Tensor Publication Explorer.  
+The assistant (this tool?) is built to help users explore and understand publications in TensorFlow. Below are several usage examples of the RAG-powered AI assistant for a  Tensor Publication Explorer and their code snippet and output are available in the GitHub repository.  
 - _Get summaries of a paper or topic_  : e.g. What’s this publication about?   
 - _Chat with a specific paper_         : e.g. What models or tools were used?, Any limitations or assumptions?
 
