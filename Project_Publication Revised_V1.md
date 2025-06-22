@@ -10,65 +10,88 @@
 
 ## TL;DR:
 The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents and asking questions. 
+(Ready Tensor Publication Explorer is an AI-powered tool leveraging Retrieval-Augmented Generation (RAG) to automate querying, summarization, and exploration of Ready Tensor scientific publications. Built with LangChain, Chroma, and OpenAI LLMs, it enables advanced semantic search and question answering on publication datasets.)
 
- 
-## Tool Overview 
-A LangChain-based pipeline that connects:
-- Prompt formulation
-- Vector store retrieval Chroma
-- Large Language Models (LLM)-generated response
-- Document ingestion into the vector store
-- Basic UX for interaction (minimal UI)  
-- Run a few example queries to test retrieval and response quality
-- Session-based memory or (AND?) intermediate reasoning steps (ReAct)
 
+## Tool Overview
+This project presents a LangChain-based pipeline designed to:
+
+- Generate and process user prompts.
+- Retrieve relevant content using Chroma (vector store).
+- Leverage Large Language Models (LLMs) for context-aware responses.
+- Ingest and index documentation into the vector database.
+- Offer a basic, user-friendly interface for interaction. (Basic UX for interaction (minimal UI)??)
+- Support session-based memory and intermediate reasoning (ReAct paradigm?).
+- Enable example queries for quality validation.
 
 
 ## Features
-• _Automated Documentation ReadyTensor_: Extracts and processes documentation from a sample dataset while maintaining structural integrity.  
-• _Vector Database Storage_: Uses Chroma as a scalable and optimized backend for storing embeddings and document metadata.  
-• _Semantic Search with OpenAI Embeddings_: Enables intelligent, context-aware lookup of relevant documentation sections, significantly improving search efficiency.  
-• _RAG-based Q&A System_: Employs RAG to provide precise and contextually accurate answers to user queries.  
-• _Minimal UI_: Offers an interactive and intuitive querying experience, making documentation searches easy for users.  
-• _Fast and Scalable Processing_: Efficient indexing and retrieval mechanisms allow for quick searches across large documentation datasets.  
+- **Automated Documentation Ingestion:** Efficiently extracts and processes Ready Tensor documentation while preserving structure.
+- **Vector Database Storage (Chroma):** Optimized backend for storing embeddings and metadata, ensuring fast and reliable retrieval.
+- **Semantic Search with OpenAI Embeddings:** Provides intelligent, context-aware lookup for relevant documentation sections.
+- **RAG-Based Q&A System:** Delivers precise and contextually rich answers to user queries about publications.
+- **Minimal UI:** Simple, interactive interface for easy exploration.
+- **Scalable and Fast:** Designed to handle large datasets with quick indexing and retrieval.
 
 
-## Installation Instructions
+## Installation (Instructions?)
 This pubblication has a GitHub code repository attached under the "Models" ("Codes") section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
-1. Clone the repository
+
+> **Prerequisites:** Python 3.8+, pip, and access to the referenced dataset.
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/<your-org>/<your-repo>.git
    cd <your-repo>
    git checkout dev
-   ```   
-2. Create and activate a virtual environment:
+   ```
+
+2. **Create and activate a virtual environment:**
    ```bash
    python3 -m venv .venv
-   source .venv/bin/activate       # Linux / macOS
-   .\.venv\Scripts\activate      # Windows
+   source .venv/bin/activate        # For Linux / macOS
+   .\.venv\Scripts\activate         # For Windows
    ```
-3. Set your environment variables:
+
+3. **Set your environment variables:**
+   ```bash
+   export OPEN_API_KEY=your_open_api_key_here    # For Linux / macOS
+   set OPEN_API_KEY=your_open_api_key_here       # For Windows
    ```
-   OPEN_API_KEY=your_open_api_key_here  
-   ```
-4. Install dependencies:
+
+4. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-5. Run locally the tool on the [sample dataset of the ReadyTensor publications](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).  
-    _Note_ The sample dataset is available also under the "Models" section of the publication.  
+
+5. **Run the tool locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
+   > _Note:_ The dataset is also linked in the "Models" section above.
 
 
-## Usage Examples   
-The assistant (this tool?) is built to help users explore and understand publications in TensorFlow. Below are several usage examples of the RAG-powered AI assistant for a  Tensor Publication Explorer and their code snippet and output are available in the GitHub repository.  
-- _Get summaries of a paper or topic_  : e.g. What’s this publication about?   
-- _Chat with a specific paper_         : e.g. What models or tools were used?, Any limitations or assumptions?
+## Usage Examples
+The assistant helps users explore and comprehend Tensor publications.(Below are several usage examples of the RAG-powered AI assistant for Exploring Ready Tensor Publications and their code snippet and output are available in the GitHub repository.????)  
 
-Here are some realistic use-case examples of the RAG-powered AI Assistant to explore Tensor publications, broken down by specific fields like Academia and Development.
-- _Use Cases in Ready Tensor_ : Summaries of a paper or topic, Chat with a specific paper.
-- _Use Cases in Academia_ : Literature Review Automation, Semantic Paper Search for Proposal Writing.
-- _Use Cases for Developers / Engineers_ :  Code Example Extraction, Model Comparison for System Design.
-- _Use in Institutions or Enterprises_ : Knowledge Management, Research Assistant for Scientific Editors.
+### General Queries
+- **Get a summary:**  
+  _"What is this publication about?"_
+- **Extract details from a paper:**  
+  _"What models or tools were used in this publication?"_
+- **Discuss limitations:**  
+  _"Are there any assumptions or limitations mentioned in this work?"_
+
+### Use Cases
+- **For Ready Tensor Users:**  
+  - Summarize papers or topics
+  - Chat interactively with publication content
+- **In Academia:**  
+  - Automate literature reviews
+  - Semantic search for proposal writing
+- **For Developers/Engineers:**  
+  - Extract code examples
+  - Compare models for system design
+- **In Enterprises/Institutions:**  
+  - Knowledge management support
+  - Research assistant for scientific editors
 
 
 ## API Documentation
