@@ -111,7 +111,7 @@ Please follow our code style and guidelines. For questions or suggestions, [open
 
 
 ## License
-This repository is licensed under the [MIT License](LICENSE).
+This publication is licensed under the [MIT License](LICENSE).
 
 
 ## Contact
