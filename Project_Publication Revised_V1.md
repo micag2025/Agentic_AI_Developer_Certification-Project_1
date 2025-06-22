@@ -133,9 +133,12 @@ We welcome contributions to improve the Ready Tensor Publication Explorer!
 Please follow our code style and guidelines. For questions or suggestions, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).
 
 
+---
+
 ## License
 This publication is licensed under the [MIT License](LICENSE).
 
+---
 
 ## Contact
 chibueze.k.muoneke@gmail.com, michelaagostini73@gmail.com, nyajuaya.j.a@gmail.com 
