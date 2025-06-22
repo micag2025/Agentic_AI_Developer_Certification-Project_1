@@ -72,7 +72,14 @@ Here are some realistic use-case examples of the RAG-powered AI Assistant to exp
 
 
 ## API Documentation
-API key are stored in environment variables for secure access. This API key provides endpoints to query and interact with ML/Tensor publications using the RAG pipeline powered by LangChain.
+API keys are stored securely in environment variables (for secure access). The API exposes endpoints for querying and interacting with Ready Tensor publications using the RAG pipeline.
+
+**Example Endpoints:**
+- `/query` — Submit a publication-related question for Q&A response
+- `/summarize` — Retrieve a publication summary
+- `/search` — Perform a semantic search on the dataset
+
+_All endpoints require authentication using your `OPEN_API_KEY`._
 
 
 ## References
@@ -90,16 +97,21 @@ API key are stored in environment variables for secure access. This API key prov
 
 
 ## Contributing
-We welcome contributions to improve the Ready Tensor Publication Explorer. Follow guidelines on how to contribute to the project:
-1. Fork the [GitHub repository](https://github.com/Joshua-Abok/rag_apk)
-   
-2. Create a new branch:
+We welcome contributions to improve the Ready Tensor Publication Explorer!
+
+1. **Fork** the [GitHub repository](https://github.com/Joshua-Abok/rag_apk)
+2. **Create a feature branch:**
    ```bash
-   git checkout -b feature-xyz
+   git checkout -b your-feature-name
    ```
+3. **Commit and push your changes.**
+4. **Submit a Pull Request** and describe your contribution.
+
+Please follow our code style and guidelines. For questions or suggestions, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).
+
 
 ## License
-This repository is licensed under the MIT License. 
+This repository is licensed under the [MIT License](LICENSE).
 
 
 ## Contact
