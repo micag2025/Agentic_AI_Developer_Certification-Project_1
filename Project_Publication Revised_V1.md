@@ -25,6 +25,59 @@ This project presents a LangChain-based pipeline designed to:
 - Enable example queries for quality validation.
 
 
+## Overview & Architecture
+This project is anchored on a modular LangChain-based pipeline. Below, each feature is mapped to the specific tool or module implementing it:
+
+| **Feature**                                      | **Tool / Library / Module**        |
+|--------------------------------------------------|-------------------------------------|
+| Prompt formulation                              | LangChain PromptTemplate            |
+| Vector store retrieval                          | Chroma Vector Database              |
+| LLM-generated response                          | OpenAI GPT-3.5/4 via LangChain      |
+| Document ingestion & embedding                  | LangChain DocumentLoader + OpenAI Embeddings + Chroma |
+| Minimal UI for interaction                      | Streamlit (or Flask/FastAPI, as implemented) |
+| Example queries, retrieval, response quality     | LangChain Chains & Evaluators       |
+| Session-based memory/intermediate reasoning      | LangChain ReAct, ConversationBuffer |
+
+---
+
+### Application Workflow
+Below is a flowchart illustrating the core workflow and system architecture of the application:
+
+```mermaid
+flowchart TD
+    A[User Query via UI] --> B[Prompt Formulation (LangChain PromptTemplate)]
+    B --> C[Semantic Embedding (OpenAI Embeddings)]
+    C --> D[Vector Store Retrieval (Chroma DB)]
+    D --> E[Relevant Chunks Selected]
+    E --> F[LLM Response Generation (OpenAI via LangChain)]
+    F --> G[Display Answer in UI]
+    G --> H[Session Memory (ReAct/ConversationBuffer)]
+    H -.-> B
+
+    style A fill:#d9f3ff
+    style G fill:#d9f3ff
+```
+
+flowchart TD
+    A[User Query via UI] --> B[Prompt Formulation (LangChain PromptTemplate)]
+    B --> C[Semantic Embedding (OpenAI Embeddings)]
+    C --> D[Vector Store Retrieval (Chroma DB)]
+    D --> E[Relevant Chunks Selected]
+    E --> F[LLM Response Generation (OpenAI via LangChain)]
+    F --> G[Display Answer in UI]
+    G --> H[Session Memory (ReAct/ConversationBuffer)]
+    H -.-> B
+
+    style A fill:#d9f3ff
+    style G fill:#d9f3ff
+
+
+
+
+
+
+
+
 ## Features
 - **Automated Documentation Ingestion:** Efficiently extracts and processes Ready Tensor documentation while preserving structure.
 - **Vector Database Storage (Chroma):** Optimized backend for storing embeddings and metadata, ensuring fast and reliable retrieval.
@@ -132,13 +185,24 @@ We welcome contributions to improve the Ready Tensor Publication Explorer!
 
 Please follow our code style and guidelines. For questions or suggestions, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).
 
+### Future Implementations
+We are actively seeking contributors who want to help implement and/or propose the following future features:
 
----
+- **Advanced UI/UX:** Develop a more intuitive and visually appealing web interface.
+- **Expanded Dataset Support:** Enable ingestion of additional publication formats and sources.
+- **Multi-Language Support:** Integrate multilingual document processing and querying.
+- **Fine-tuned LLM Models:** Incorporate domain-specific or fine-tuned LLMs for improved accuracy.
+- **User Authentication & Profiles:** Add user management, history tracking, and personalization.
+- **Integration with Ready Tensor Platform:** Seamlessly connect with Ready Tensor’s broader ecosystem and APIs.
+- **Export & Reporting:** Allow users to export summaries or Q&A sessions in various formats (PDF, CSV, etc).
+- **Feedback & Rating System:** Let users rate answers to improve system performance.
+
+Feel free to suggest more ideas by opening an issue or starting a discussion!  For bug reports or feature requests, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).For general questions or new ideas, start a [discussion](LINK TO BE ENCLOSED).
+
 
 ## License
 This publication is licensed under the [MIT License](LICENSE).
 
----
 
 ## Contact
 chibueze.k.muoneke@gmail.com, michelaagostini73@gmail.com, nyajuaya.j.a@gmail.com 
