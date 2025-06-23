@@ -26,7 +26,7 @@ This project presents a LangChain-based pipeline designed to:
 
 
 ## Overview & Architecture
-This project is anchored on a modular LangChain-based pipeline. Below, each feature is mapped to the specific tool or module implementing it:
+This project is structured on a modular LangChain-based pipeline. Below, each feature is mapped to the specific tool or module implementing it:
 
 | **Feature**                                      | **Tool / Library / Module**        |
 |--------------------------------------------------|-------------------------------------|
@@ -41,8 +41,7 @@ This project is anchored on a modular LangChain-based pipeline. Below, each feat
 ---
 
 ### Application Workflow
-Below is a flowchart illustrating the core workflow and system architecture of the application:
-TO BE ENCLOSED FLOWCHART 
+Below is a flowchart illustrating the core workflow and system architecture of the application:  
 ```mermaid
 flowchart TD
     A[User Query via UI] --> B[Prompt Formulation<br>LangChain PromptTemplate]
@@ -54,25 +53,6 @@ flowchart TD
     G --> H[Session Memory<br>ReAct/ConversationBuffer]
     H -.-> B
 ```
-
-flowchart TD
-    A[User Query via UI] --> B[Prompt Formulation (LangChain PromptTemplate)]
-    B --> C[Semantic Embedding (OpenAI Embeddings)]
-    C --> D[Vector Store Retrieval (Chroma DB)]
-    D --> E[Relevant Chunks Selected]
-    E --> F[LLM Response Generation (OpenAI via LangChain)]
-    F --> G[Display Answer in UI]
-    G --> H[Session Memory (ReAct/ConversationBuffer)]
-    H -.-> B
-
-    style A fill:#d9f3ff
-    style G fill:#d9f3ff
-
-
-
-
-
-
 
 
 ## Features
