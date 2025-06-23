@@ -14,6 +14,16 @@ The Ready Tensor Publication Explorer is an advanced AI-powered tool that utiliz
 
 
 ## Tool Overview
+This project uses a sample dataset and is structured on a modular LangChain-based pipeline.
+
+### Sample dataset
+The sammple dataset is a dataset of a sample of publications from the Ready Tensor platform. It details, it does contain 35 publications, 
+each of them characterised by the following 5 variables: id, username, license, title, publication description. Among the 35 publications, 27 
+publications have licenses of type "CC Licence" and "Mit Licence" (23 and 4, respectively). Therefore, 8 publications have license 
+none or missing (5 and 3, respectively). Under these licenses, since the author has granted permission for reuse, the publications can be used 
+for open source projects. 
+
+### Overview & Architecture
 This project presents a LangChain-based pipeline designed to:
 
 - Generate and process user prompts.
@@ -86,8 +96,12 @@ This pubblication has a GitHub code repository attached under the "Code" section
    ```
 
 5. **Run the tool locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
-   > _Note:_ The dataset is also linked in the "Datasets" section above.
-
+   > _Note:_ The dataset is also linked in the "Datasets" section above.  
+    > _Note:_ The sammple dataset is a dataset of a sample of publications from the Ready Tensor platform. It details, it does contain 35 publications, 
+each of them characterised by the following 5 variables: id, username, license, title, publication description. Among the 35 publications, 27 
+publications have licenses of type "CC Licence" and "Mit Licence" (23 and 4, respectively). Therefore, 8 publications have license 
+none or missing (5 and 3, respectively). Under these licenses, since the author has granted permission for reuse, the publications can be used 
+for open source projects.   
 
 ## Usage Examples
 The assistant helps users explore and comprehend Tensor publications.(Below are several usage examples of the RAG-powered AI assistant for Exploring Ready Tensor Publications and their code snippet and output are available in the GitHub repository.????)  
