@@ -41,17 +41,9 @@ This project is structured on a modular LangChain-based pipeline. Below, each fe
 
 ### Application Workflow
 Below is a flowchart illustrating the core workflow and system architecture of the application:  
-```mermaid
-flowchart TD
-    A[User Query via UI] --> B[Prompt Formulation<br>LangChain PromptTemplate]
-    B --> C[Semantic Embedding<br>OpenAI Embeddings]
-    C --> D[Vector Store Retrieval<br>Chroma DB]
-    D --> E[Relevant Chunks Selected]
-    E --> F[LLM Response Generation<br>OpenAI via LangChain]
-    F --> G[Display Answer in UI]
-    G --> H[Session Memory<br>ReAct/ConversationBuffer]
-    H -.-> B
-```
+
+![flowchart_modified](flowchart_modified.jpeg)
+
 
 
 ## Features
