@@ -28,17 +28,16 @@ This project presents a LangChain-based pipeline designed to:
 ## Overview & Architecture
 This project is structured on a modular LangChain-based pipeline. Below, each feature is mapped to the specific tool or module implementing it:
 
-| **Feature**                                      | **Tool / Library / Module**        |
-|--------------------------------------------------|-------------------------------------|
-| Prompt formulation                              | LangChain PromptTemplate            |
-| Vector store retrieval                          | Chroma Vector Database              |
-| LLM-generated response                          | OpenAI GPT-3.5/4 via LangChain      |
+| **Feature**                                     | **Tool / Library / Module**                           |
+|-------------------------------------------------|-------------------------------------------------------|
+| Prompt formulation                              | LangChain PromptTemplate                              |
+| Vector store retrieval                          | Chroma Vector Database                                |
+| LLM-generated response                          | OpenAI GPT-3.5/4 via LangChain                        |
 | Document ingestion & embedding                  | LangChain DocumentLoader + OpenAI Embeddings + Chroma |
-| Minimal UI for interaction                      | Streamlit (or Flask/FastAPI, as implemented) |
-| Example queries, retrieval, response quality     | LangChain Chains & Evaluators       |
-| Session-based memory/intermediate reasoning      | LangChain ReAct, ConversationBuffer |
+| Minimal UI for interaction                      | Streamlit (or Flask/FastAPI, as implemented)          |
+| Example queries, retrieval, response quality    | LangChain Chains & Evaluators                         |
+| Session-based memory/intermediate reasoning     | LangChain ReAct, ConversationBuffer                   |
 
----
 
 ### Application Workflow
 Below is a flowchart illustrating the core workflow and system architecture of the application:  
