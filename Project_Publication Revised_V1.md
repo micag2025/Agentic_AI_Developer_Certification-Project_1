@@ -67,7 +67,7 @@ flowchart TD
 ## Installation (Instructions?)
 This pubblication has a GitHub code repository attached under the "Models" ("Codes") section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 
-> **Prerequisites:** Python 3.8+, pip, and access to the referenced dataset.
+> **Prerequisites:** Python 3.10+, pip, and access to the referenced dataset.
 
 1. **Clone the repository:**
    ```bash
