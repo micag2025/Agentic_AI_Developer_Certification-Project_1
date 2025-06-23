@@ -63,8 +63,8 @@ flowchart TD
 - **Scalable and Fast:** Designed to handle large datasets with quick indexing and retrieval.
 
 
-## Installation (Instructions?)
-This pubblication has a GitHub code repository attached under the "Models" ("Codes") section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
+## Installation Instructions
+This pubblication has a GitHub code repository attached under the "Code" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
 
 > **Prerequisites:** Python 3.10+, pip, and access to the referenced dataset.
 
@@ -94,7 +94,7 @@ This pubblication has a GitHub code repository attached under the "Models" ("Cod
    ```
 
 5. **Run the tool locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
-   > _Note:_ The dataset is also linked in the "Models" section above.
+   > _Note:_ The dataset is also linked in the "Datasets" section above.
 
 
 ## Usage Examples
