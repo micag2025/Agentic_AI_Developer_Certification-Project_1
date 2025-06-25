@@ -114,20 +114,14 @@ The assistant helps users explore and comprehend Ready Tensor publications. Exam
 
 ## API Documentation
 API keys are stored securely in environment variables (for secure access). The API exposes endpoints for querying and interacting with Ready Tensor publications using the RAG pipeline.
-
-**Example Endpoints:**
-- `/query` — Submit a publication-related question for Q&A response
-- `/summarize` — Retrieve a publication summary
-- `/search` — Perform a semantic search on the dataset
-
-_All endpoints require authentication using your `OPEN_API_KEY`._
+> _Note:_ _All endpoints require authentication using your `OPENAI_API_KEY`._
 
 
 ## References
 - [LangChain](https://www.langchain.com/langchain)                 
 - [Openai API](https://platform.openai.com/account/api-keys)
-- [Mit Licence](https://opensource.org/license/mit)
-- [CC Licences](https://creativecommons.org/share-your-work/cclicenses/)
+- [MIT Licence](https://opensource.org/license/mit)
+- [CC Licenses](https://creativecommons.org/share-your-work/cclicenses/)
 - [Streamlit](https://docs.streamlit.io/)               
 - [Ready Tensor Certifications](https://app.readytensor.ai/hubs/ready_tensor_certifications)
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
@@ -144,7 +138,7 @@ We welcome contributions to improve the Ready Tensor Publication Explorer!
    ```bash
    git checkout -b your-feature-name
    ```
-3. **Commit and push your changes.**
+3. **Commit and push your changes**
 4. **Submit a Pull Request** and describe your contribution.
 
 Please follow our code style and guidelines. For questions or suggestions, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).
@@ -172,5 +166,5 @@ chibueze.k.muoneke@gmail.com, michelaagostini73@gmail.com, nyajuaya.j.a@gmail.co
 
 
 ## Acknowledgments
-This project is part of the **Agentic AI Developer Certification**  program by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the Ready Tensor developer community for their guidance and contributions. Their work has been valuable in building an effective and scalable solution for the AI-powered LLM-RAG Ready Tensor Publication Explorer.    
+This project is part of the **Agentic AI Developer Certification**  program by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the Ready Tensor developer community for their guidance and contributions. 
 
