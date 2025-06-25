@@ -9,7 +9,8 @@
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
 
 
-## TL;DR:
+## TL;DR
+
 The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents and asking questions.   
 
 
@@ -21,6 +22,7 @@ This project uses a sample dataset and is built around (is structured on) a modu
 A collection of 35 Ready Tensor publications, each with: `id`, `username`, `license`, `title`, and `publication description`. There are 6 types of licenses; 27 publications use “MIT” or “CC”, the rest are “none” or missing. Under MIT/CC, reuse is permitted for open source projects.
 
 **Features & Modules:**
+This project is structured on a modular LangChain-based pipeline in which each feature is mapped to the specific tool or module implementing it:
 
 | Feature                                    | Tool / Library / Module                             |
 |---------------------------------------------|-----------------------------------------------------|
@@ -32,133 +34,82 @@ A collection of 35 Ready Tensor publications, each with: `id`, `username`, `lice
 | Example queries, retrieval, response eval   | LangChain Chains & Evaluators                       |
 | Session-based memory/intermediate reasoning | LangChain ReAct, ConversationBuffer                 |
 
-**Workflow:**  
+**Workflow:** 
+The LangChain-based pipeline is designed to:
 1. Generate/process user prompts  
 2. Retrieve relevant content using Chroma  
-3. Use LLMs for context-aware responses  
+3. Use Large Language Models (LLMs) for context-aware responses  
 4. Ingest/index documentation into vector DB  
 5. Offer user interface for interaction  
-6. Support session memory and intermediate reasoning  
+6. Support session memory and intermediate reasoning  TO BE VERIFIED
 7. Enable example queries for validation  
 
-![flowchart_modified](flowchart_modified.jpeg)
-
-## Tool Overview
-This project uses a sample dataset and it is structured on a modular LangChain-based pipeline.
-
-### Sample dataset
-The sammple dataset is a dataset of a sample of publications from the Ready Tensor platform. It details, it does contain 35 publications, 
-each of them characterised by the following 5 variables: id, username, license, title, publication description. 6 kind of licences are available in the dataset. Among the 35 publications, 27 publications have 4 kind of licenses of type "CC Licence" and "Mit Licence" (23 and 4, respectively). Therefore, 8 publications have license 
-none or missing (5 and 3, respectively). Under these licenses, since the author has granted permission for reuse, the publications can be used 
-for open source projects. 
-
-
-### Overview & Architecture
-This project presents a LangChain-based pipeline designed to:
-
-- Generate and process user prompts.
-- Retrieve relevant content using Chroma (vector store).
-- Leverage Large Language Models (LLMs) for context-aware responses.
-- Ingest and index documentation into the vector database.
-- Offer a basic, user-friendly interface for interaction. (Basic UX for interaction (minimal UI)??)
-- Support session-based memory and intermediate reasoning (ReAct paradigm?).
-- Enable example queries for quality validation.
-
-
-## Overview & Architecture
-This project is structured on a modular LangChain-based pipeline. Below, each feature is mapped to the specific tool or module implementing it:
-
-| **Feature**                                     | **Tool / Library / Module**                           |
-|-------------------------------------------------|-------------------------------------------------------|
-| Prompt formulation                              | LangChain PromptTemplate                              |
-| Vector store retrieval                          | Chroma Vector Database                                |
-| LLM-generated response                          | OpenAI GPT-3.5/4 via LangChain                        |
-| Document ingestion & embedding                  | LangChain DocumentLoader + OpenAI Embeddings + Chroma |
-| Minimal UI for interaction                      | Streamlit (or Flask/FastAPI, as implemented)          |
-| Example queries, retrieval, response quality    | LangChain Chains & Evaluators                         |
-| Session-based memory/intermediate reasoning     | LangChain ReAct, ConversationBuffer                   |
-
-
-### Application Workflow
-Below is a flowchart illustrating the core workflow and system architecture of the application:  
-
+The core workflow and system architecture of the application are illustrated in the following flowchart.  
 ![flowchart_modified](flowchart_modified.jpeg)
 
 
 ## Features
-- **Automated Documentation Ingestion:** Efficiently extracts and processes Ready Tensor documentation while preserving structure.
-- **Vector Database Storage (Chroma):** Optimized backend for storing embeddings and metadata, ensuring fast and reliable retrieval.
-- **Semantic Search with OpenAI Embeddings:** Provides intelligent, context-aware lookup for relevant documentation sections.
-- **RAG-Based Q&A System:** Delivers precise and contextually rich answers to user queries about publications.
-- **Minimal UI:** Simple, interactive interface for easy exploration.
-- **Scalable and Fast:** Designed to handle large datasets with quick indexing and retrieval.
+
+- **Automated Documentation Ingestion:** Efficient extraction and processing of Ready Tensor publications (while preserving structure).
+- **Vector Database Storage (Chroma):** Fast, reliable embedding storage and retrieval.
+- **Semantic Search (OpenAI Embeddings):** Intelligent, context-aware lookup for relevant documentation.
+- **RAG-Based Q&A:** Contextually precise answers to user queries about publications.
+- **Minimal UI:** Simple, interactive interface (for exploration).
+- **Scalable and Fast:** Handles large datasets with quick indexing and retrieval.
 
 
 ## Installation Instructions
-This pubblication has a GitHub code repository attached under the "Code" section. We recommend reading through the pubblication first to understand the concepts, then to see how the code repository implements these ideas in practice.
+This pubblication has a GitHub code repository attached under the "Code" section.
 
 > **Prerequisites:** Python 3.10+, pip, and access to the referenced dataset.
 
-1. **Clone the repository:**
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-org>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/micag2025/Agentic_AI_Developer_Certification-Project_1.git
+   cd Agentic_AI_Developer_Certification-Project_1
    git checkout dev
    ```
 2. **Create and activate a virtual environment:**
    ```bash
    python3 -m venv .venv
-   source .venv/bin/activate        # For Linux / macOS
-   .\.venv\Scripts\activate         # For Windows
+   source .venv/bin/activate        # Linux / macOS
+   .\.venv\Scripts\activate         # Windows
    ```
 3. **Set your environment variables:**
    ```bash
-   export OPEN_API_KEY=your_open_api_key_here    # For Linux / macOS
-   set OPEN_API_KEY=your_open_api_key_here       # For Windows
+   export OPEN_API_KEY=your_open_api_key_here    # Linux / macOS
+   set OPEN_API_KEY=your_open_api_key_here       # Windows
    ```
-4. **Install dependencies:**
+5. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-5. **Run the tool (app) locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
-   > _Note:_ The dataset is also linked in the "Datasets" section above.
-
-   From the project root, start Streamlit:
-
-   ```
+6. **Run the app locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
+   > _Note:_ The dataset is available in the "Datasets" section.
+   ```bash
    streamlit run app/main.py
    ```
-
-6. **Open in browser**  
+7. **Open in browser**  
    Streamlit will provide a local URL (usually http://localhost:8501). Open it in your browser.
 
 You can now interact with the Ready Tensor Publication Explorer!
  
-     
+
 ## Usage Examples
-The assistant helps users explore and comprehend Tensor publications.(Below are several usage examples of the RAG-powered AI assistant for Exploring Ready Tensor Publications and their code snippet and output are available in the GitHub repository.????)  
-
-### General Queries
+The assistant helps users explore and comprehend Ready Tensor publications. Example general queries might be:  
 - **Get a summary:**  
-  _"What is this publication about?"_
+  “What is this publication about?”
 - **Extract details from a paper:**  
-  _"What models or tools were used in this publication?"_
+  “What models or tools were used in this publication?”
 - **Discuss limitations:**  
-  _"Are there any assumptions or limitations mentioned in this work?"_
+  “Are there any assumptions or limitations mentioned in this work?”
 
-### Use Cases
-- **For Ready Tensor Users:**  
-  - Summarize papers or topics
-  - Chat interactively with publication content
-- **In Academia:**  
-  - Automate literature reviews
-  - Semantic search for proposal writing
-- **For Developers/Engineers:**  
-  - Extract code examples
-  - Compare models for system design
-- **In Enterprises/Institutions:**  
-  - Knowledge management support
-  - Research assistant for scientific editors
+**Use Cases:**
+
+- **For Ready Tensor Users:** Summarize papers or topics, chat with publication content
+- **In Academia:** Automate literature reviews, semantic search for proposals
+- **For Developers/Engineers:** Extract code examples, compare models
+- **In Enterprises/Institutions:** Knowledge management, research assistant for editors
 
 
 ## API Documentation
