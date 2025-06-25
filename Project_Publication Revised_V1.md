@@ -180,7 +180,7 @@ We are actively seeking contributors who want to help implement and/or propose t
 - **Export & Reporting:** Allow users to export summaries or Q&A sessions in various formats (PDF, CSV, etc).
 - **Feedback & Rating System:** Let users rate answers to improve system performance.
 
-Feel free to suggest more ideas by opening an issue or starting a discussion!  For bug reports or feature requests, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).For general questions or share your thoughts, start a [comment](https://app.readytensor.ai/publications/iSUvjnognEEL).
+Feel free to suggest more ideas by opening an issue or starting a discussion!  For bug reports or feature requests, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues). For general questions or share your thoughts, start a [comment](https://app.readytensor.ai/publications/iSUvjnognEEL).
 
 
 ## License
