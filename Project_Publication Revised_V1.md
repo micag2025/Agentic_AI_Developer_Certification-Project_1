@@ -57,6 +57,24 @@ The core workflow and system architecture of the application are illustrated in 
 - **Minimal UI:** Simple, interactive interface (for exploration).
 - **Scalable and Fast:** Handles large datasets with quick indexing and retrieval.
 
+### Example UI Screenshots
+
+#### 1. Home Page
+
+![Home Page](ui_homepage.png)  
+*Figure 1: The main landing page of the Ready Tensor Publication Explorer, showing the search bar and recent publications.*
+
+### 2. Publication Details
+
+![Publication Details](ui_publication_details.png)  
+*Figure 3: Detailed view of a selected publication,
+
+### 3. Q&A Chat Interface
+
+![Q&A Chat Interface](ui_chat.png)  
+*Figure 4: Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
+
+
 
 ## Installation Instructions
 This pubblication has a GitHub code repository attached under the "Code" section.
