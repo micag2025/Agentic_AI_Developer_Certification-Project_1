@@ -19,10 +19,10 @@ This project uses a sample dataset and it is structured on a modular LangChain-b
 
 ### Sample dataset
 The sammple dataset is a dataset of a sample of publications from the Ready Tensor platform. It details, it does contain 35 publications, 
-each of them characterised by the following 5 variables: id, username, license, title, publication description. Among the 35 publications, 27 
-publications have licenses of type "CC Licence" and "Mit Licence" (23 and 4, respectively). Therefore, 8 publications have license 
+each of them characterised by the following 5 variables: id, username, license, title, publication description. 6 kind of licences are available in the dataset. Among the 35 publications, 27 publications have 4 kind of licenses of type "CC Licence" and "Mit Licence" (23 and 4, respectively). Therefore, 8 publications have license 
 none or missing (5 and 3, respectively). Under these licenses, since the author has granted permission for reuse, the publications can be used 
 for open source projects. 
+
 
 ### Overview & Architecture
 This project presents a LangChain-based pipeline designed to:
@@ -91,8 +91,20 @@ This pubblication has a GitHub code repository attached under the "Code" section
    ```bash
    pip install -r requirements.txt
    ```
-5. **Run the tool locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
-   > _Note:_ The dataset is also linked in the "Datasets" section above.  
+5. **Run the tool (app) locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
+   > _Note:_ The dataset is also linked in the "Datasets" section above.
+
+   From the project root, start Streamlit:
+
+   ```
+   streamlit run app/main.py
+   ```
+
+6. **Open in browser**  
+   Streamlit will provide a local URL (usually http://localhost:8501). Open it in your browser.
+
+You can now interact with the Ready Tensor Publication Explorer!
+ 
      
 
 ## Usage Examples
@@ -144,6 +156,9 @@ _All endpoints require authentication using your `OPEN_API_KEY`._
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
 - [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)
 - [The Open Source Repository Guide: Best Practices for Sharing Your AI/ML and Data Science Projects](https://app.readytensor.ai/publications/best-practices-for-ai-project-code-repositories-0llldKKtn8Xb)
+- [Mit Licence](https://opensource.org/license/mit)
+- [CC Licences](https://creativecommons.org/share-your-work/cclicenses/)
+- [Streamlit](https://docs.streamlit.io/)
 
 
 ## Contributing
