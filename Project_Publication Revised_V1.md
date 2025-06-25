@@ -145,20 +145,16 @@ _All endpoints require authentication using your `OPEN_API_KEY`._
 
 
 ## References
-- [LangChain](https://www.langchain.com/langchain)    
-- [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)    
-- [GitHub repository](https://github.com/Joshua-Abok/rag_apk)               
-- [Openai API](https://platform.openai.com/account/api-keys)                 
+- [LangChain](https://www.langchain.com/langchain)                 
+- [Openai API](https://platform.openai.com/account/api-keys)
+- [Mit Licence](https://opensource.org/license/mit)
+- [CC Licences](https://creativecommons.org/share-your-work/cclicenses/)
+- [Streamlit](https://docs.streamlit.io/)               
 - [Ready Tensor Certifications](https://app.readytensor.ai/hubs/ready_tensor_certifications)
-- [AAIDC Module 1 Project: Foundations of Agentic AI – Your First RAG Assistant](https://app.readytensor.ai/publications/aaidc-module-1-project-foundations-of-agentic-ai-your-first-rag-assistant-4n07ViGCey0l)
-- [Project 1 Submission Guidelines - Agentic AI Developer Certification (AAIDC-Week3)](https://app.readytensor.ai/publications/project-1-submission-guidelines-agentic-ai-developer-certification-aaidc-week3-BblNcQTBi5Os)  
 - [Technical Evaluation Rubric](https://app.readytensor.ai/publications/WsaE5uxLBqnH)
 - [Engage and Inspire: Best Practices for Publishing on Ready Tensor](https://app.readytensor.ai/publications/engage_and_inspire_best_practices_for_publishing_on_ready_tensor_SBgkOyUsP8qQ)
 - [Markdown for Machine Learning Projects: A Comprehensive Guide](https://app.readytensor.ai/publications/markdown_for_machine_learning_projects_a_comprehensive_guide_LX9cbIx7mQs9)
 - [The Open Source Repository Guide: Best Practices for Sharing Your AI/ML and Data Science Projects](https://app.readytensor.ai/publications/best-practices-for-ai-project-code-repositories-0llldKKtn8Xb)
-- [Mit Licence](https://opensource.org/license/mit)
-- [CC Licences](https://creativecommons.org/share-your-work/cclicenses/)
-- [Streamlit](https://docs.streamlit.io/)
 
 
 ## Contributing
