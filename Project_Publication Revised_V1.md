@@ -12,11 +12,10 @@
 
 ## TL;DR:
 The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents and asking questions.   
-(Ready Tensor Publication Explorer is an AI-powered tool leveraging Retrieval-Augmented Generation (RAG) to automate querying, summarization, and exploration of Ready Tensor scientific publications. Built with LangChain, Chroma, and OpenAI LLMs, it enables advanced semantic search and question answering on publication datasets.)
 
 
 ## Tool Overview
-This project uses a sample dataset and is structured on a modular LangChain-based pipeline.
+This project uses a sample dataset and it is structured on a modular LangChain-based pipeline.
 
 ### Sample dataset
 The sammple dataset is a dataset of a sample of publications from the Ready Tensor platform. It details, it does contain 35 publications, 
@@ -57,7 +56,6 @@ Below is a flowchart illustrating the core workflow and system architecture of t
 ![flowchart_modified](flowchart_modified.jpeg)
 
 
-
 ## Features
 - **Automated Documentation Ingestion:** Efficiently extracts and processes Ready Tensor documentation while preserving structure.
 - **Vector Database Storage (Chroma):** Optimized backend for storing embeddings and metadata, ensuring fast and reliable retrieval.
@@ -78,32 +76,24 @@ This pubblication has a GitHub code repository attached under the "Code" section
    cd <your-repo>
    git checkout dev
    ```
-
 2. **Create and activate a virtual environment:**
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate        # For Linux / macOS
    .\.venv\Scripts\activate         # For Windows
    ```
-
 3. **Set your environment variables:**
    ```bash
    export OPEN_API_KEY=your_open_api_key_here    # For Linux / macOS
    set OPEN_API_KEY=your_open_api_key_here       # For Windows
    ```
-
 4. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-
 5. **Run the tool locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
    > _Note:_ The dataset is also linked in the "Datasets" section above.  
-    > _Note:_ The sammple dataset is a dataset of a sample of publications from the Ready Tensor platform. It details, it does contain 35 publications, 
-each of them characterised by the following 5 variables: id, username, license, title, publication description. Among the 35 publications, 27 
-publications have licenses of type "CC Licence" and "Mit Licence" (23 and 4, respectively). Therefore, 8 publications have license 
-none or missing (5 and 3, respectively). Under these licenses, since the author has granted permission for reuse, the publications can be used 
-for open source projects.   
+     
 
 ## Usage Examples
 The assistant helps users explore and comprehend Tensor publications.(Below are several usage examples of the RAG-powered AI assistant for Exploring Ready Tensor Publications and their code snippet and output are available in the GitHub repository.????)  
@@ -193,6 +183,5 @@ chibueze.k.muoneke@gmail.com, michelaagostini73@gmail.com, nyajuaya.j.a@gmail.co
 
 
 ## Acknowledgments
-This project is part of the **Agentic AI Developer Certification**  program by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the Ready Tensor developers in providing the sample Ready Tensor dataset, the guidelines /documentation and RAG framework. Their work has been valuable in building an effective and scalable solution for the AI-powered LLM-RAG Ready Tensor Publication Explorer.    
-(Special thanks to the Ready Tensor developer community for their guidance and contributions.)
+This project is part of the **Agentic AI Developer Certification**  program by the [Ready Tensor](https://www.readytensor.ai). We appreciate the contributions of the Ready Tensor developer community for their guidance and contributions. Their work has been valuable in building an effective and scalable solution for the AI-powered LLM-RAG Ready Tensor Publication Explorer.    
 
