@@ -1,10 +1,9 @@
-# Agentic AI Developer Certification Project: A RAG-based AI assistant for Tensor Publication Explorer
+# Agentic AI Developer Certification Project: A RAG-based AI assistant for Tensor Publication Explorer (for Exploring Ready Tensor Publications)
 # Agentic AI Developer Certification Project: RAG-Powered Ready Tensor Publication Explorer
-# Agentic AI Developer Certification Project: A RAG AI Assistant for Exploring Ready Tensor Publications
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
 
-### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistent, LangChain, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases
+### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistant, LangChain, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases
 ### Co-Authors: chibueze.k.muoneke@gmail.com, nyajuaya.j.a@gmail.com 
 ### Models : [Github](https://github.com/Joshua-Abok/rag_apk)
 ### Dataset: [project_1_publications.json](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9)
@@ -13,6 +12,36 @@
 ## TL;DR:
 The Ready Tensor Publication Explorer is an advanced AI-powered tool that utilizes Retrieval-Augmented Generation (RAG) techniques to automate the handling of a sample dataset that contains Ready Tensor technical documentation. By leveraging RAG models, the system delivers accurate and context-aware responses to (natural language) user queries. Integrating OpenAI embeddings, semantic search capabilities, and a user-friendly interface, this tools offers a scalable and efficient solution for Ready Tensor users, developers, researchers, and organizations searching streamlined access to documentation resources enclosed in the Ready Tensor platform by exploring its contents and asking questions.   
 
+
+## Tool Overview & Architecture
+
+This project uses a sample dataset and is built around (is structured on) a modular LangChain-based pipeline.
+
+**Sample Dataset:**  
+A collection of 35 Ready Tensor publications, each with: `id`, `username`, `license`, `title`, and `publication description`. There are 6 types of licenses; 27 publications use “MIT” or “CC”, the rest are “none” or missing. Under MIT/CC, reuse is permitted for open source projects.
+
+**Features & Modules:**
+
+| Feature                                    | Tool / Library / Module                             |
+|---------------------------------------------|-----------------------------------------------------|
+| Prompt formulation                         | LangChain PromptTemplate                            |
+| Vector store retrieval                      | Chroma Vector Database                              |
+| LLM-generated response                     | OpenAI GPT-3.5/4 via LangChain                      |
+| Document ingestion & embedding              | LangChain DocumentLoader, OpenAI Embeddings, Chroma |
+| Minimal UI for interaction                  | Streamlit (or Flask/FastAPI as implemented)         |
+| Example queries, retrieval, response eval   | LangChain Chains & Evaluators                       |
+| Session-based memory/intermediate reasoning | LangChain ReAct, ConversationBuffer                 |
+
+**Workflow:**  
+1. Generate/process user prompts  
+2. Retrieve relevant content using Chroma  
+3. Use LLMs for context-aware responses  
+4. Ingest/index documentation into vector DB  
+5. Offer user interface for interaction  
+6. Support session memory and intermediate reasoning  
+7. Enable example queries for validation  
+
+![flowchart_modified](flowchart_modified.jpeg)
 
 ## Tool Overview
 This project uses a sample dataset and it is structured on a modular LangChain-based pipeline.
