@@ -61,17 +61,23 @@ The core workflow and system architecture of the application are illustrated in 
 
 #### 1. Home Page
 
-![Home Page](ui_homepage.png)  
+![Home Page](output_ui_homepage.jpeg)  
 *Figure 1: The main landing page of the Ready Tensor Publication Explorer, showing the search bar and recent publications.*
+
+2. Publication Search
+
+![Publication Search](output_ui_search.jpeg)  
+*Figure 2: The search interface where users can enter queries and view search results from the publication dataset.*
+
 
 ### 2. Publication Details
 
-![Publication Details](ui_publication_details.png)  
+![Publication Details](output_ui_publication_details.jpeg)  
 *Figure 3: Detailed view of a selected publication,
 
 ### 3. Q&A Chat Interface
 
-![Q&A Chat Interface](ui_chat.png)  
+![Q&A Chat Interface](output_ui_chat.jpeg)  
 *Figure 4: Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
 
 
