@@ -175,14 +175,13 @@ We are actively seeking contributors who want to help implement and/or propose t
 
 - **Advanced UI/UX:** Develop a more intuitive and visually appealing web interface.
 - **Expanded Dataset Support:** Enable ingestion of additional publication formats and sources.
-- **Multi-Language Support:** Integrate multilingual document processing and querying.
 - **Fine-tuned LLM Models:** Incorporate domain-specific or fine-tuned LLMs for improved accuracy.
 - **User Authentication & Profiles:** Add user management, history tracking, and personalization.
 - **Integration with Ready Tensor Platform:** Seamlessly connect with Ready Tensor’s broader ecosystem and APIs.
 - **Export & Reporting:** Allow users to export summaries or Q&A sessions in various formats (PDF, CSV, etc).
 - **Feedback & Rating System:** Let users rate answers to improve system performance.
 
-Feel free to suggest more ideas by opening an issue or starting a discussion!  For bug reports or feature requests, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).For general questions or new ideas, start a [discussion](LINK TO BE ENCLOSED).
+Feel free to suggest more ideas by opening an issue or starting a discussion!  For bug reports or feature requests, [open an issue](https://github.com/Joshua-Abok/rag_apk/issues).For general questions or share your thoughts, start a [comment](https://app.readytensor.ai/publications/iSUvjnognEEL)).
 
 
 ## License
