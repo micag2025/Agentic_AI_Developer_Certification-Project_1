@@ -54,9 +54,9 @@ Besides, following further changes (implementations):
   using Streamlit in app/main.p. 
 
 ## NEXT STEPS 
-- Re-submit the publication and the related GitHub by 27 Friday 2025
+- **Re-submit** the publication and the related GitHub **by June 27, 2025**.
 - Send short notification (email) to the Ready Tensor reviewer to inform that the revised project has been re-submitted on the Ready Tensor site.
-- Wait for evaluation and/or second round feedback following updated timeschedule from the Ready Tensor Team. For more details see 
+- Wait for evaluation and/or second round feedback following **updated submission deadlines** available on  [SUBMISSION DEADLINES](https://app.readytensor.ai/publications/aaidc-module-1-project-foundations-of-agentic-ai-your-first-rag-assistant-4n07ViGCey0l)
 
 
 
