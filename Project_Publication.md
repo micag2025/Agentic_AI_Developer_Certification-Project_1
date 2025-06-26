@@ -56,29 +56,6 @@ The core workflow and system architecture of the application are illustrated in 
 - **Minimal UI:** Simple, interactive interface (for exploration).
 - **Scalable and Fast:** Handles large datasets with quick indexing and retrieval.
 
-### Example UI Screenshots
-
-#### 1. Home Page
-
-![Home Page](output_ui_homepage.jpeg)  
-*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface. (selectbox for choosing a publication title and viewing its details)*
-
-### 2. Publication Search
-
-![Publication Search](output_ui_search.jpeg)  
-*The search bar interface where users can view and search publications by title. (OR The search bar filters publications by title and the selectbox lists all filtered titles)*
-
-
-### 3. Publication Details
-
-![Publication Details](output_ui_publication_details.jpeg)  
-*Detailed view of the description/content of the selected publication, selected by title (When a title is selected, its description/content is shown)*
-
-### 4. Q&A Chat Interface
-
-![Q&A Chat Interface](output_ui_chat.jpeg)  
-*Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
-> _Note: When a user asks a question in the chat, the agent has access to the content of **all publications** and can retrieve information from any or all of them to answer the query. The chat input can be used to ask about any aspect of the dataset, including questions that span multiple publications. Therefore, the agent will use the full dataset to answer, not just the selected publication. 
 
 ## Installation Instructions
 This pubblication has a GitHub code repository attached under the "Code" section.
@@ -106,16 +83,40 @@ This pubblication has a GitHub code repository attached under the "Code" section
    ```bash
    pip install -r requirements.txt
    ```
-6. **Run the app locally using the [sample dataset](https://drive.google.com/drive/folders/1HAqLXL2W-sh8hqoBb1iSauJ_0wZVRxB9).**
+## Running the Application
+   
+1. **Launch the App **
    > _Note:_ The dataset is available in the "Datasets" section.
    ```bash
    streamlit run app/main.py
    ```
-7. **Open in browser**  
+2. **Open in browser**  
    Streamlit will provide a local URL (usually http://localhost:8501). Open it in your browser.
 
 You can now interact with the Ready Tensor Publication Explorer!
  
+### Example UI Screenshots
+
+####  Home Page
+
+![Home Page](output_ui_homepage.jpeg)  
+*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface. (selectbox for choosing a publication title and viewing its details)*
+
+####   Publication Search
+
+![Publication Search](output_ui_search.jpeg)  
+*The search bar interface where users can view and search publications by title. (OR The search bar filters publications by title and the selectbox lists all filtered titles)*
+
+####  Publication Details
+
+![Publication Details](output_ui_publication_details.jpeg)  
+*Detailed view of the description/content of the selected publication, selected by title (When a title is selected, its description/content is shown)*
+
+####   Q&A Chat Interface
+
+![Q&A Chat Interface](output_ui_chat.jpeg)  
+*Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
+> _Note: When a user asks a question in the chat, the agent has access to the content of **all publications** and can retrieve information from any or all of them to answer the query. The chat input can be used to ask about any aspect of the dataset, including questions that span multiple publications. Therefore, the agent will use the full dataset to answer, not just the selected publication.
 
 ## Usage Examples
 The assistant helps users explore and comprehend Ready Tensor publications. Example general queries might be:  
