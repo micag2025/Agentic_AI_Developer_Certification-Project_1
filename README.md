@@ -1,4 +1,4 @@
-# FIRST ROUND FEEDBACK 
+# FIRST ROUND FEEDBACK (see email 20 June 20225) 
 
 ## Publication Feedback:   
 The publication includes a well-written TL;DR that effectively covers the project overview and introduction. 
@@ -49,7 +49,7 @@ _To helps catch type errors during execution, not just during static analysis, *
 
 - As you scale the project, refining the project structure will be beneficial. For example, organizing utility classes and functions into dedicated 
 modules, and placing data files within appropriate packages, can contribute to a more maintainable and scalable codebase.  
-_**The project structure has been refined**, organizing utility classes and functions into dedicated modules, and placing data files within appropriate packages._    
+_**The project structure has been refined**, organizing (placing) data files within appropriate subforlders (packages), based on the project structure._
 
 Besides, following further changes (implementations):  
 - Since the new section titled **"Example UI Screenshots"** has been enclosed, the code have been slightly implemented.
