@@ -57,25 +57,6 @@ Besides, following further changes (implementations):
   using Streamlit in app/main.p. 
 
 
-**Where to place:**  
-Put this code after `st.caption("Ask questions about the Ready Tensor publications.")` and before the chat history/chat input logic.
-
-This will show a search bar and a list of publications on the main page, filtered as the user types.
-
-
-It will display the **search bar** and the **list of publications** on the main landing page, before the chat interface. 
-Here’s a summary of what your code does:
-
-- **Loads publications** from `project_1_publications.json` using the `DATA_DIR` path.
-- **Displays a search bar** (`st.text_input`) at the top.
-- **Filters publications** based on the search query (title or description).
-- **Shows the filtered publications** with their title and description.
-- **Initializes chat history and agent** if not already in session state.
-- **Displays chat history** and handles user queries.
-- **Saves each response** to the `output/` folder.
-
-
-- You are running the app with `streamlit run app/main.py`.
 
 
 
