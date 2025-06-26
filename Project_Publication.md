@@ -1,5 +1,4 @@
-# Agentic AI Developer Certification Project: A RAG-based AI assistant for Tensor Publication Explorer (for Exploring Ready Tensor Publications)
-# Agentic AI Developer Certification Project: RAG-Powered Ready Tensor Publication Explorer
+# Agentic AI Developer Certification: RAG-based AI assistant for Exploring Ready Tensor Publications 
 
 ![Image Logo](ChatGPT_Image_v2_resized.jpg)
 
