@@ -40,7 +40,7 @@ _To improve the effectiveness of the README, paragraphs such as **"Instruction"*
 
 - To further strengthen type safety, consider integrating Python's typeguard decorator.   
 _To helps catch type errors during execution, not just during static analysis, **Python's typeguard decorator** has been enclosed in the .py files 
-(to enforce type hints at runtime) and further the use the `@typechecked` decorator on functions or classes (TO BE CHECKED)._  
+(to enforce type hints at runtime) and further the use the `@typechecked` decorator on functions._  
 
 - As you scale the project, refining the project structure will be beneficial. For example, organizing utility classes and functions into dedicated 
 modules, and placing data files within appropriate packages, can contribute to a more maintainable and scalable codebase.  
