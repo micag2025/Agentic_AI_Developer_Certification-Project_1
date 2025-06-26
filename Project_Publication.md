@@ -122,11 +122,11 @@ You can now interact with the Ready Tensor Publication Explorer!
 ## Usage Examples
 The assistant helps users explore and comprehend Ready Tensor publications. Example general queries might be:  
 - **Get a summary:**  
-  “What is this publication about?”
+  “What is VAE?”
 - **Extract details from a paper:**  
-  “What models or tools were used in this publication?”
+  “What models or tools were used in these publications?”
 - **Discuss limitations:**  
-  “Are there any assumptions or limitations mentioned in this work?”
+  “Are there any assumptions or limitations mentioned in these publications?”
 
 **Use Cases:**
 
