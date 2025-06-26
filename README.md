@@ -24,8 +24,7 @@ a **flowchart** illustrating the core workflow and system architecture of the ap
 
 - It’s great to see an open call for collaboration. Along similar lines, including a “Future Implementations” section would be valuable in outlining 
 the project’s growth potential and guiding contributors on possible directions for expansion.    
-_A paragraph **"Future Implementations"** in the section "Contributing" has been enclosed to give an overview on features that users might proposed to implement 
-the application._  
+_A paragraph **"Future Implementations"** in the section "Contributing" has been enclosed to give an overview on features that users might proposed to implement the application._  
 
 Besides, following further implementations:   
 - Short **description of the sample dataset** used, explanaing why it has been selected, and how it can be used in the application.
@@ -51,8 +50,7 @@ _**The project structure has been refined**, organizing data files within approp
 
 Besides, following further changes (implementations):  
 - Since the new section titled **"Example UI Screenshots"** has been enclosed, the code have been slightly implemented.
-- **Implementation of the UI**, enclosing (displaying) a **search bar** and **list the available publications** from `project_1_publications.json` on the **main landing page**  before the chat interface (history/chat) 
-  using Streamlit in app/main.p. 
+- **Implementation of the UI**, enclosing (displaying) a **search bar** and **list the available publications** from `project_1_publications.json` on the **main landing page**  before the chat interface using Streamlit in `app/main.py` and `path.py`. 
 
 ## NEXT STEPS 
 - **Re-submit** the publication and the related GitHub **by June 27, 2025**.
