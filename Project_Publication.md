@@ -1,6 +1,6 @@
 # Agentic AI Developer Certification: RAG-based AI assistant for Exploring Ready Tensor Publications 
 
-![Image Logo](ChatGPT_Image_v2_resized.jpg)
+![Image Logo](Image_Logo.jpg)
 
 ### Tags : AAIDC2025, Agentic AI, Certification Program, Chain-of-Thought, Document Assistant, LangChain, Question-Answering (QA), Retrieval-Augmented Generation (RAG), ReAct, Vector Databases
 ### Co-Authors: chibueze.k.muoneke@gmail.com, nyajuaya.j.a@gmail.com 
