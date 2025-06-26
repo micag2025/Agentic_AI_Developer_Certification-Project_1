@@ -58,7 +58,7 @@ The core workflow and system architecture of the application are illustrated in 
 
 
 ## Installation Instructions
-This pubblication has a GitHub code repository attached under the "Code" section.
+This pubblication has a `GitHub code repository` attached under the "Code" section.
 
 > **Prerequisites:** Python 3.10+, pip, and access to the referenced dataset.
 
@@ -85,8 +85,8 @@ This pubblication has a GitHub code repository attached under the "Code" section
    ```
 ## Running the Application
    
-1. **Launch the App **
-   > _Note:_ The dataset is available in the "Datasets" section.
+1. **Launch the App**
+   > _Note:_ The `sample dataset` is available in the "Datasets" section.
    ```bash
    streamlit run app/main.py
    ```
@@ -100,7 +100,7 @@ You can now interact with the Ready Tensor Publication Explorer!
 ####  Home Page
 
 ![Home Page](output_ui_homepage.jpeg)  
-*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface. (selectbox for choosing a publication title and viewing its details)*
+*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** (selectbox for choosing a publication title and viewing its details) before the **chat interface**.*
 
 ####   Publication Search
 
@@ -110,7 +110,7 @@ You can now interact with the Ready Tensor Publication Explorer!
 ####  Publication Details
 
 ![Publication Details](output_ui_publication_details.jpeg)  
-*Detailed view of the description/content of the selected publication, selected by title (When a title is selected, its description/content is shown)*
+*Detailed view of the content of the selected publication, selected by title (When a title is selected, its content is shown)*
 
 ####   Q&A Chat Interface
 
