@@ -19,7 +19,7 @@ The Ready Tensor Publication Explorer is an advanced AI-powered tool that utiliz
 This project uses a sample dataset and is built around (is structured on) a modular LangChain-based pipeline.
 
 **Sample Dataset:**  
-A collection of 35 Ready Tensor publications, each with: `id`, `username`, `license`, `title`, and `publication description`. There are 6 types of licenses; 27 publications use “MIT” or “CC”, the rest are “none” or missing. Under MIT/CC, reuse is permitted for open source projects.
+A collection of 35 Ready Tensor publications, each of them characterised by `id`, `username`, `license`, `title`, and `publication description`. There are 6 types of licenses; 27 publications use “MIT” or “CC”, the rest are “none” or missing. Under MIT/CC, reuse is permitted for open source projects.
 
 **Features & Modules:**
 This project is structured on a modular LangChain-based pipeline in which each feature is mapped to the specific tool or module implementing it:
