@@ -62,8 +62,7 @@ The core workflow and system architecture of the application are illustrated in 
 #### 1. Home Page
 
 ![Home Page](output_ui_homepage.jpeg)  
-*The main landing page of the Ready Tensor Publication Explorer, showing the search bar and the list of publications before the chat interface.
-
+*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface*
 
 ### 2. Publication Search
 
@@ -81,7 +80,18 @@ The core workflow and system architecture of the application are illustrated in 
 ![Q&A Chat Interface](output_ui_chat.jpeg)  
 *Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
 
+Certainly! To display a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface, you can use Streamlit’s `st.selectbox` or `st.radio` after filtering with the search bar. Here’s how you can modify your code:
 
+
+**How this works:**
+- The search bar filters publications by title or description.
+- The selectbox lists all filtered titles.
+- When a title is selected, its description/content is shown.
+- The chat interface and other logic remain below this section.
+
+This ensures the search and selection UI is the first thing users see, and only after that comes the chat interface.
+
+Certainly! Here’s how you can remove the search bar and only keep the selectbox for choosing a publication title and viewing its details:
 
 ## Installation Instructions
 This pubblication has a GitHub code repository attached under the "Code" section.
