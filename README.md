@@ -27,12 +27,13 @@ the project’s growth potential and guiding contributors on possible directions
 _A paragraph **"Future Implementations"** in the section "Contributing" has been enclosed to give an overview on features that users might proposed to implement 
 the application._  
 
-Besides, following further changes (implementations):   
+Besides, following further implementations:   
 - Short **description of the sample dataset** used, explanaing why it has been selected, and how it can be used in the application.
-- After "Features" and before "Installation", a new section titled **"Example UI Screenshots"** has been enclosed to show relevant UI features such as:  
+- Before “Usage Examples” a new section titled **"Example UI Screenshots"** has been enclosed to show relevant UI features such as:  
    - the Home Page    
-   - Pubblication Search (Details?)    
-   - Q&A Chat Interface /  Example Query Result  
+   - Pubblication Search
+   - Publication Details  
+   - Q&A Chat Interface with Example Query Result  
 
 
 # Repository: 
