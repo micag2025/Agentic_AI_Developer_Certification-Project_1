@@ -1,4 +1,4 @@
-# FIRST ROUND FEEDBACK (see email 20 June 20225) 
+# FIRST ROUND FEEDBACK (see email 20 June 2025) 
 
 ## Publication Feedback:   
 The publication includes a well-written TL;DR that effectively covers the project overview and introduction. 
@@ -29,13 +29,10 @@ the application._
 
 Besides, following further changes (implementations):   
 - Short **description of the sample dataset** used, explanaing why it has been selected, and how it can be used in the application.
-- After "Features" and before "Installation" screenshots of the UI, a new section titled **"Example UI Screenshots"** has been enclosed to show relevant UI features such as:  
+- After "Features" and before "Installation", a new section titled **"Example UI Screenshots"** has been enclosed to show relevant UI features such as:  
    - the Home Page    
    - Pubblication Search (Details?)    
-   - Q&A Chat Interface    
-   - Example Query Result
- -      
-
+   - Q&A Chat Interface /  Example Query Result  
 
 
 # Repository: 
@@ -45,11 +42,11 @@ _To improve the effectiveness of the README, paragraphs such as **"Instruction"*
 
 - To further strengthen type safety, consider integrating Python's typeguard decorator.   
 _To helps catch type errors during execution, not just during static analysis, **Python's typeguard decorator** has been enclosed in the .py files 
-(to enforce type hints at runtime) and further the use the `@typechecked` decorator on functions._  
+ and further the use the `@typechecked` decorator on functions._  
 
 - As you scale the project, refining the project structure will be beneficial. For example, organizing utility classes and functions into dedicated 
 modules, and placing data files within appropriate packages, can contribute to a more maintainable and scalable codebase.  
-_**The project structure has been refined**, organizing (placing) data files within appropriate subforlders (packages), based on the project structure._
+_**The project structure has been refined**, organizing data files within appropriate subforlders, based on the project structure._
 
 Besides, following further changes (implementations):  
 - Since the new section titled **"Example UI Screenshots"** has been enclosed, the code have been slightly implemented.
