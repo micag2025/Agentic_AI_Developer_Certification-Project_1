@@ -98,24 +98,25 @@ You can now interact with the Ready Tensor Publication Explorer!
 ### Example UI Screenshots
 
 ####  Home Page
-
-![Home Page](output_ui_homepage.jpeg)  
 *The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** (selectbox for choosing a publication title and viewing its details) before the **chat interface**.*
 
+![Home Page](output_ui_homepage.jpeg)  
+
+
 ####   Publication Search
+*The search bar interface where users can view and search publications by title. (OR The search bar filters publications by title and the selectbox lists all filtered titles)*  
 
 ![Publication Search](output_ui_search.jpeg)  
-*The search bar interface where users can view and search publications by title. (OR The search bar filters publications by title and the selectbox lists all filtered titles)*
 
-####  Publication Details
-
-![Publication Details](output_ui_publication_details.jpeg)  
+####  Publication Details  
 *Detailed view of the content of the selected publication, selected by title (When a title is selected, its content is shown)*
 
-####   Q&A Chat Interface
+![Publication Details](output_ui_publication_details.jpeg)  
+
+####   Q&A Chat Interface  
+*Interactive chat interface for asking questions about publications using the RAG-powered assistant.*  
 
 ![Q&A Chat Interface](output_ui_chat.jpeg)  
-*Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
 > _Note: When a user asks a question in the chat, the agent has access to the content of **all publications** and can retrieve information from any or all of them to answer the query. The chat input can be used to ask about any aspect of the dataset, including questions that span multiple publications. Therefore, the agent will use the full dataset to answer, not just the selected publication.
 
 ## Usage Examples
