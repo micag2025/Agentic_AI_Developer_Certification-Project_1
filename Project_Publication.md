@@ -62,36 +62,24 @@ The core workflow and system architecture of the application are illustrated in 
 #### 1. Home Page
 
 ![Home Page](output_ui_homepage.jpeg)  
-*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface*
+*The main landing page of the Ready Tensor Publication Explorer, showing a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface. (selectbox for choosing a publication title and viewing its details)*
 
 ### 2. Publication Search
 
 ![Publication Search](output_ui_search.jpeg)  
-*The search interface where users can enter queries and view search results from the publication dataset.*
+*The search bar interface where users can view and search publications by title. (OR The search bar filters publications by title and the selectbox lists all filtered titles)*
 
 
 ### 3. Publication Details
 
 ![Publication Details](output_ui_publication_details.jpeg)  
-*Detailed view of a selected publication,
+*Detailed view of the description/content of the selected publication, selected by title (When a title is selected, its description/content is shown)*
 
 ### 4. Q&A Chat Interface
 
 ![Q&A Chat Interface](output_ui_chat.jpeg)  
 *Interactive chat interface for asking questions about publications using the RAG-powered assistant.*
-
-Certainly! To display a **search bar** and a **selectable list of publication titles** (with content shown after selection) **before** the chat interface, you can use Streamlit’s `st.selectbox` or `st.radio` after filtering with the search bar. Here’s how you can modify your code:
-
-
-**How this works:**
-- The search bar filters publications by title or description.
-- The selectbox lists all filtered titles.
-- When a title is selected, its description/content is shown.
-- The chat interface and other logic remain below this section.
-
-This ensures the search and selection UI is the first thing users see, and only after that comes the chat interface.
-
-Certainly! Here’s how you can remove the search bar and only keep the selectbox for choosing a publication title and viewing its details:
+> _Note: When a user asks a question in the chat, the agent has access to the content of **all publications** and can retrieve information from any or all of them to answer the query. The chat input can be used to ask about any aspect of the dataset, including questions that span multiple publications. Therefore, the agent will use the full dataset to answer, not just the selected publication. 
 
 ## Installation Instructions
 This pubblication has a GitHub code repository attached under the "Code" section.
