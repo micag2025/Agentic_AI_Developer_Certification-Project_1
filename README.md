@@ -53,7 +53,10 @@ Besides, following further changes (implementations):
 - **Implementation of the UI**, enclosing (displaying) a **search bar** and **list the available publications** from `project_1_publications.json` on the **main landing page**  before the chat interface (history/chat) 
   using Streamlit in app/main.p. 
 
-
+## NEXT STEPS 
+- Re-submit the publication and the related GitHub by 27 Friday 2025
+- Send short notification (email) to the Ready Tensor reviewer to inform that the revised project has been re-submitted on the Ready Tensor site.
+- Wait for evaluation and/or second round feedback following updated timeschedule from the Ready Tensor Team. For more details see 
 
 
 
