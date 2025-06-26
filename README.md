@@ -29,7 +29,12 @@ the application._
 
 Besides, following further changes (implementations):   
 - Short **description of the sample dataset** used, explanaing why it has been selected, and how it can be used in the application.
--  
+- After "Features" and before "Installation" screenshots of the UI, a new section titled **"Example UI Screenshots"** has been enclosed to show relevant UI features such as:  
+   - the Home Page    
+   - Pubblication Search (Details?)    
+   - Q&A Chat Interface    
+   - Example Query Result
+ -      
 
 
 
@@ -46,7 +51,32 @@ _To helps catch type errors during execution, not just during static analysis, *
 modules, and placing data files within appropriate packages, can contribute to a more maintainable and scalable codebase.  
 _**The project structure has been refined**, organizing utility classes and functions into dedicated modules, and placing data files within appropriate packages._    
 
-Besides, following further changes (implementations):     
-- 
+Besides, following further changes (implementations):  
+- Since the new section titled **"Example UI Screenshots"** has been enclosed, the code have been slightly implemented.
+- **Implementation of the UI**, enclosing (displaying) a **search bar** and **list the available publications** from `project_1_publications.json` on the **main landing page**  before the chat interface (history/chat) 
+  using Streamlit in app/main.p. 
+
+
+**Where to place:**  
+Put this code after `st.caption("Ask questions about the Ready Tensor publications.")` and before the chat history/chat input logic.
+
+This will show a search bar and a list of publications on the main page, filtered as the user types.
+
+
+It will display the **search bar** and the **list of publications** on the main landing page, before the chat interface. 
+Here’s a summary of what your code does:
+
+- **Loads publications** from `project_1_publications.json` using the `DATA_DIR` path.
+- **Displays a search bar** (`st.text_input`) at the top.
+- **Filters publications** based on the search query (title or description).
+- **Shows the filtered publications** with their title and description.
+- **Initializes chat history and agent** if not already in session state.
+- **Displays chat history** and handles user queries.
+- **Saves each response** to the `output/` folder.
+
+
+- You are running the app with `streamlit run app/main.py`.
+
+
 
 
